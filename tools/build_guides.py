@@ -517,6 +517,10 @@ def copy_transcripts(lesson):
             candidates.append(p)
 
     seen = set()
+    if candidates:
+        no_transcript = destination / "NO-TRANSCRIPT.md"
+        if no_transcript.exists():
+            no_transcript.unlink()
     for item in candidates:
         key = item.name.lower()
         if key in seen:
@@ -671,6 +675,7 @@ readme = """# Course Study Guides - JB 45800-9
 - [מערכת המזהים](guides/ID-SYSTEM.md)
 - [כל הוראות המרצה](guides/TEACHER-RULES-INDEX.md)
 - [כל שיעורי הבית](guides/HOMEWORK-INDEX.md)
+- [העלאה בטוחה ל-GitHub](PUBLISH-TO-GITHUB.md)
 - `transcripts/` - עותקי התמלולים לפי מזהה שיעור
 
 ## עדכון לאחר שיעור חדש

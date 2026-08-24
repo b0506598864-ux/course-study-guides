@@ -8,6 +8,7 @@
 - [מערכת המזהים](guides/ID-SYSTEM.md)
 - [כל הוראות המרצה](guides/TEACHER-RULES-INDEX.md)
 - [כל שיעורי הבית](guides/HOMEWORK-INDEX.md)
+- [העלאה בטוחה ל-GitHub](PUBLISH-TO-GITHUB.md)
 - `transcripts/` - עותקי התמלולים לפי מזהה שיעור
 
 ## עדכון לאחר שיעור חדש
