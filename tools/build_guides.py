@@ -415,6 +415,43 @@ lessons = [
             rule("TR07", "PREFERRED", "המרצה מעדיף את הסגנון המקוצר של getData שמחזיר את Promise של fetch/response.json.", "part-2-main.vtt", "02:06:31-02:20:11", "E06"),
         ],
     },
+    {
+        "id": "L-2026-08-26",
+        "folder": "2026-08-26-git-github",
+        "title": "Git, GitHub, Branches ו-Pull Requests",
+        "source_status": "נמצא מסמך כיתה ב-Google Drive ושיעורי בית מקוריים. עדיין אין תמלול הקלטה עם timestamps ולא נוספה תיקיית קוד חדשה ב-Git של המרצה.",
+        "learned": [
+            "Git מנהל גרסאות והיסטוריה של קוד בתוך Repository.",
+            "הטרמינל פועל תמיד מתוך תיקייה מסוימת ולכן חשוב לבדוק את המיקום לפני פקודות קבצים ו-Git.",
+            "Staging באמצעות git add מכין שינויים ל-Commit.",
+            "Commit שומר נקודת גרסה עם הודעה משמעותית.",
+            "GitHub מארח Repository מרוחק ומאפשר שיתוף וסנכרון.",
+            "Branch מאפשר לעבוד על משימה בנפרד; Merge מחבר אותה לענף אחר.",
+            "Pull Request הוא מנגנון בדיקה ומיזוג של GitHub ודומיו, ולא תכונה בסיסית של Git.",
+        ],
+        "syntax": [
+            "pwd", "ls", "ls -ltra", "cd", "../", "./", "Ctrl+C",
+            "git init", "git add filename", "git add .", "git commit -m \"message\"",
+            "git config --global user.name", "git config --global user.email",
+            "git revert commit-id", "git clone repository-url", "git branch branch-name",
+            "git checkout branch-name", "git checkout -b branch-name", "git merge branch-name",
+            "git push",
+        ],
+        "exercises": [
+            ex("E01", ".", "מסמך הכיתה Git ו-GitHub", "היכרות עם Repository, Staging, Commit, Clone, Branch, Merge ו-Pull Request."),
+        ],
+        "homework": [
+            hw("HW01", "Git & GitHub.docx", "אתחול פרויקט קודם כ-Repository, ביצוע add/commit, העלאה ל-GitHub ופרסום ב-GitHub Pages."),
+            hw("HW02", "Git & GitHub.docx", "בניית אתר פרחים במספר גרסאות, Clone, עבודה ב-Branch, הוספת contact.html, Merge ו-Push אחרון."),
+        ],
+        "rules": [
+            rule("TR01", "MUST UNDERSTAND", "הטרמינל תמיד נמצא בתיקייה מסוימת והפקודות מתבצעות ביחס לתיקייה הזאת.", "Google Docs: git and github", "אין timestamp — מסמך כתוב", "E01/HW01-HW02"),
+            rule("TR02", "MUST NOT", "לא להעתיק תיקייה שמכילה .git לתוך תיקייה אחרת שגם מכילה .git.", "Google Docs: git and github", "אין timestamp — מסמך כתוב", "E01"),
+            rule("TR03", "PREFERRED", "לכל משימה פותחים Branch נפרד, מבצעים בו Commits, ולאחר בדיקה ממזגים אותו לענף היעד.", "Google Docs: git and github", "אין timestamp — מסמך כתוב", "E01/HW02"),
+            rule("TR04", "MUST UNDERSTAND", "Pull Request הוא פיצ'ר של GitHub, GitLab ו-Bitbucket ולא פקודת Git בסיסית.", "Google Docs: git and github", "אין timestamp — מסמך כתוב", "E01"),
+            rule("TR05", "MUST", "בשיעורי הבית יש לפרסם את האתר ב-GitHub Pages ולבדוק שהוא ניתן לגלישה גם מהטלפון.", "Git & GitHub.docx", "אין timestamp — מסמך כתוב", "HW01-HW02"),
+        ],
+    },
 ]
 
 
@@ -510,7 +547,10 @@ def copy_transcripts(lesson):
     candidates = []
     transcript_dir = source / "תמלול"
     if transcript_dir.exists():
-        candidates.extend(p for p in transcript_dir.rglob("*") if p.is_file())
+        candidates.extend(
+            p for p in transcript_dir.rglob("*")
+            if p.is_file() and p.suffix.lower() in {".txt", ".vtt", ".srt"}
+        )
 
     for p in source.iterdir() if source.exists() else []:
         if p.is_file() and p.suffix.lower() in {".txt", ".vtt"} and "transcript" in p.name.lower():

@@ -22,6 +22,7 @@
 - [L-2026-08-16 - הכנה לפרויקט, Callbacks, Arrow Functions ו-HOF](lessons/L-2026-08-16.md)
 - [L-2026-08-19 - Asynchronous JavaScript, Promise ו-async/await](lessons/L-2026-08-19.md)
 - [L-2026-08-23 - Destructuring, Cloning, IIFE, Fetch ו-Aggregation](lessons/L-2026-08-23.md)
+- [L-2026-08-26 - Git, GitHub, Branches ו-Pull Requests](lessons/L-2026-08-26.md)
 
 ## אינדקסים נוספים
 

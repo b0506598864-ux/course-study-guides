@@ -343,3 +343,45 @@
 - **SOURCE:** `part-2-main.vtt`
 - **TIMESTAMP:** `02:06:31-02:20:11`
 - **RELATED:** `E06`
+
+## [L-2026-08-26 - Git, GitHub, Branches ו-Pull Requests](lessons/L-2026-08-26.md)
+
+### L-2026-08-26-TR01
+
+- **PRIORITY:** `MUST UNDERSTAND`
+- **TEACHER RULE:** הטרמינל תמיד נמצא בתיקייה מסוימת והפקודות מתבצעות ביחס לתיקייה הזאת.
+- **SOURCE:** `Google Docs: git and github`
+- **TIMESTAMP:** `אין timestamp — מסמך כתוב`
+- **RELATED:** `E01/HW01-HW02`
+
+### L-2026-08-26-TR02
+
+- **PRIORITY:** `MUST NOT`
+- **TEACHER RULE:** לא להעתיק תיקייה שמכילה .git לתוך תיקייה אחרת שגם מכילה .git.
+- **SOURCE:** `Google Docs: git and github`
+- **TIMESTAMP:** `אין timestamp — מסמך כתוב`
+- **RELATED:** `E01`
+
+### L-2026-08-26-TR03
+
+- **PRIORITY:** `PREFERRED`
+- **TEACHER RULE:** לכל משימה פותחים Branch נפרד, מבצעים בו Commits, ולאחר בדיקה ממזגים אותו לענף היעד.
+- **SOURCE:** `Google Docs: git and github`
+- **TIMESTAMP:** `אין timestamp — מסמך כתוב`
+- **RELATED:** `E01/HW02`
+
+### L-2026-08-26-TR04
+
+- **PRIORITY:** `MUST UNDERSTAND`
+- **TEACHER RULE:** Pull Request הוא פיצ'ר של GitHub, GitLab ו-Bitbucket ולא פקודת Git בסיסית.
+- **SOURCE:** `Google Docs: git and github`
+- **TIMESTAMP:** `אין timestamp — מסמך כתוב`
+- **RELATED:** `E01`
+
+### L-2026-08-26-TR05
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** בשיעורי הבית יש לפרסם את האתר ב-GitHub Pages ולבדוק שהוא ניתן לגלישה גם מהטלפון.
+- **SOURCE:** `Git & GitHub.docx`
+- **TIMESTAMP:** `אין timestamp — מסמך כתוב`
+- **RELATED:** `HW01-HW02`

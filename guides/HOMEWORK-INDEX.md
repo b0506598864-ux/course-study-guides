@@ -172,3 +172,15 @@
 
 - **קובץ:** `03 - async-await.docx`
 - **מטרת המשימה:** פתרון פעולות Promise באמצעות async/await ו-try/catch.
+
+## [L-2026-08-26 - Git, GitHub, Branches ו-Pull Requests](lessons/L-2026-08-26.md)
+
+### L-2026-08-26-HW01
+
+- **קובץ:** `Git & GitHub.docx`
+- **מטרת המשימה:** אתחול פרויקט קודם כ-Repository, ביצוע add/commit, העלאה ל-GitHub ופרסום ב-GitHub Pages.
+
+### L-2026-08-26-HW02
+
+- **קובץ:** `Git & GitHub.docx`
+- **מטרת המשימה:** בניית אתר פרחים במספר גרסאות, Clone, עבודה ב-Branch, הוספת contact.html, Merge ו-Push אחרון.
