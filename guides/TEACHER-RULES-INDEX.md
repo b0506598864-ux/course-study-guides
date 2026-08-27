@@ -350,17 +350,17 @@
 
 - **PRIORITY:** `MUST UNDERSTAND`
 - **TEACHER RULE:** הטרמינל תמיד נמצא בתיקייה מסוימת והפקודות מתבצעות ביחס לתיקייה הזאת.
-- **SOURCE:** `Google Docs: git and github`
-- **TIMESTAMP:** `אין timestamp — מסמך כתוב`
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `00:47:59-00:48:26`
 - **RELATED:** `E01/HW01-HW02`
 
 ### L-2026-08-26-TR02
 
 - **PRIORITY:** `MUST NOT`
-- **TEACHER RULE:** לא להעתיק תיקייה שמכילה .git לתוך תיקייה אחרת שגם מכילה .git.
-- **SOURCE:** `Google Docs: git and github`
-- **TIMESTAMP:** `אין timestamp — מסמך כתוב`
-- **RELATED:** `E01`
+- **TEACHER RULE:** לא להעתיק Repository שמכיל .git לתוך Repository אחר שמכיל .git; המרצה הדגיש שהדבר יוצר כאוס.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `01:26:55-01:29:29`
+- **RELATED:** `E01/HW01-HW02`
 
 ### L-2026-08-26-TR03
 
@@ -373,9 +373,9 @@
 ### L-2026-08-26-TR04
 
 - **PRIORITY:** `MUST UNDERSTAND`
-- **TEACHER RULE:** Pull Request הוא פיצ'ר של GitHub, GitLab ו-Bitbucket ולא פקודת Git בסיסית.
-- **SOURCE:** `Google Docs: git and github`
-- **TIMESTAMP:** `אין timestamp — מסמך כתוב`
+- **TEACHER RULE:** Pull Request הוא פיצ'ר של GitHub, GitLab ו-Bitbucket ולא תכונה בסיסית של Git.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `03:43:20-03:43:44`
 - **RELATED:** `E01`
 
 ### L-2026-08-26-TR05
@@ -385,3 +385,75 @@
 - **SOURCE:** `Git & GitHub.docx`
 - **TIMESTAMP:** `אין timestamp — מסמך כתוב`
 - **RELATED:** `HW01-HW02`
+
+### L-2026-08-26-TR06
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** יש להשתמש בשם main לענף הראשי ולא בשם master.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `01:19:53-01:19:56`
+- **RELATED:** `E01/HW01-HW02`
+
+### L-2026-08-26-TR07
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** לפני git init יש לוודא שנמצאים בתוך תיקיית הפרויקט עצמה ולא בתוך תיקיית .git.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `01:18:58-01:19:19`
+- **RELATED:** `E01/HW01-HW02`
+
+### L-2026-08-26-TR08
+
+- **PRIORITY:** `MUST NOT`
+- **TEACHER RULE:** אין לערוך ידנית את תוכן תיקיית .git; היא מתארת את מצב המאגר ומנוהלת על ידי Git.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `01:50:31-01:50:49`
+- **RELATED:** `E01`
+
+### L-2026-08-26-TR09
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** כל Commit חייב לקבל הודעה שמתארת את השינוי; Commit ללא הודעה מבוטל.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `02:00:55-02:01:57`
+- **RELATED:** `E01/HW01-HW02`
+
+### L-2026-08-26-TR10
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** לפני git clone צריך לבדוק באיזו תיקייה נמצאים ולבצע את ה-Clone בתיקיית יעד מתאימה, כדי לא ליצור Git בתוך Git.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `02:41:23-02:42:09`
+- **RELATED:** `HW02`
+
+### L-2026-08-26-TR11
+
+- **PRIORITY:** `PREFERRED`
+- **TEACHER RULE:** בעבודה דרך GitHub, במקום למזג שינוי ישירות ל-main שולחים Pull Request לבדיקה ולמיזוג.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `03:50:52-03:51:18`
+- **RELATED:** `E01/HW02`
+
+### L-2026-08-26-TR12
+
+- **PRIORITY:** `MUST UNDERSTAND`
+- **TEACHER RULE:** Merge הוא בעצמו Commit. כאשר שני Branches משנים באופן סותר את אותו אזור, מתקבל Conflict שצריך לפתור ידנית.
+- **SOURCE:** `part-2-main.vtt + part-1-short.vtt`
+- **TIMESTAMP:** `03:54:30-03:58:17; 00:02:10-00:08:31`
+- **RELATED:** `E02/HW02`
+
+### L-2026-08-26-TR13
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** בפעולת Delete בפרויקט חייבים להציג confirm לפני המחיקה.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `00:06:53-00:07:08; 00:11:30-00:11:39`
+- **RELATED:** `קשור לפרויקט`
+
+### L-2026-08-26-TR14
+
+- **PRIORITY:** `MUST UNDERSTAND`
+- **TEACHER RULE:** מותר להיעזר ב-AI, אבל צריך למסור לו את הדרישות במדויק ולוודא שהוא לא מכניס פקודות או Patterns שלא נלמדו בתרגיל הרלוונטי.
+- **SOURCE:** `part-2-main.vtt`
+- **TIMESTAMP:** `00:09:50-00:13:12`
+- **RELATED:** `קשור לפרויקט ולמבחן`
