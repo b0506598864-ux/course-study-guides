@@ -457,3 +457,69 @@
 - **SOURCE:** `part-2-main.vtt`
 - **TIMESTAMP:** `00:09:50-00:13:12`
 - **RELATED:** `קשור לפרויקט ולמבחן`
+
+## [L-2026-08-30 - AI-Assisted Coding, Cursor Rules ו-Skills](lessons/L-2026-08-30.md)
+
+### L-2026-08-30-TR01
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** מעכשיו חומר הקורס, הוראות ושיעורי בית מתפרסמים ב-Repository; גל אמר שאינו עובד עם Drive.
+- **SOURCE:** `part-1.vtt`
+- **TIMESTAMP:** `00:28:54-00:29:30`
+- **RELATED:** `כל חומרי הקורס אצל גל`
+
+### L-2026-08-30-TR02
+
+- **PRIORITY:** `MUST UNDERSTAND`
+- **TEACHER RULE:** צריך לדעת לעבוד עם Git Core ועם פקודות; ממשקי UI ותוספים הם עזרים בלבד.
+- **SOURCE:** `part-2.vtt`
+- **TIMESTAMP:** `00:15:34-00:16:01`
+- **RELATED:** `Git workflow`
+
+### L-2026-08-30-TR03
+
+- **PRIORITY:** `PREFERRED`
+- **TEACHER RULE:** לפני שמאפשרים ל-Agent לבנות שינוי גדול, משתמשים ב-Plan, בודקים את השלבים והטכנולוגיות ומתקנים את התכנון.
+- **SOURCE:** `part-2.vtt`
+- **TIMESTAMP:** `02:02:32-02:05:44`
+- **RELATED:** `AI workflow`
+
+### L-2026-08-30-TR04
+
+- **PRIORITY:** `MUST UNDERSTAND`
+- **TEACHER RULE:** Rule מגדיר כיצד לעבוד תמיד בפרויקט; Skill מתאר Workflow חוזר לביצוע משימה מסוימת ומופעל לפי הצורך.
+- **SOURCE:** `part-1.vtt`
+- **TIMESTAMP:** `00:16:11-00:18:51`
+- **RELATED:** `Cursor Rules/Skills`
+
+### L-2026-08-30-TR05
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** בקוד החדש של גל מפרידים HTML, CSS ו-JavaScript לקבצים נפרדים; אין inline style, inline script או inline event handlers.
+- **SOURCE:** `.cursor/rules/split-client-assets.mdc`
+- **TIMESTAMP:** `אין timestamp — Rule כתוב ב-Git`
+- **RELATED:** `Client code`
+
+### L-2026-08-30-TR06
+
+- **PRIORITY:** `PREFERRED`
+- **TEACHER RULE:** ב-JavaScript החדש להשתמש ב-const כברירת מחדל, let רק כשמשנים הצבה, ולעולם לא var.
+- **SOURCE:** `.cursor/rules/modern-js-standards.mdc`
+- **TIMESTAMP:** `אין timestamp — Rule כתוב ב-Git`
+- **RELATED:** `Modern JavaScript`
+
+### L-2026-08-30-TR07
+
+- **PRIORITY:** `PREFERRED`
+- **TEACHER RULE:** בקוד החדש להעדיף querySelector/querySelectorAll, ליצור Dynamic DOM עם createElement ו-textContent, ולהוסיף אלמנטים עם append/prepend ו-DocumentFragment.
+- **SOURCE:** `.cursor/rules/modern-js-standards.mdc`
+- **TIMESTAMP:** `אין timestamp — Rule כתוב ב-Git`
+- **RELATED:** `DOM`
+
+### L-2026-08-30-TR08
+
+- **PRIORITY:** `PREFERRED`
+- **TEACHER RULE:** גל עובד בדרך כלל עם בחירת מודל Auto ולא Max; מעבר אקראי בין מודלים באמצע כתיבת פרויקט עלול ליצור קוד לא עקבי ובאגים.
+- **SOURCE:** `part-2.vtt`
+- **TIMESTAMP:** `01:27:04-01:31:42`
+- **RELATED:** `AI models`

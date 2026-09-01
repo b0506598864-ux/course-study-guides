@@ -23,11 +23,13 @@
 - [L-2026-08-19 - Asynchronous JavaScript, Promise ו-async/await](lessons/L-2026-08-19.md)
 - [L-2026-08-23 - Destructuring, Cloning, IIFE, Fetch ו-Aggregation](lessons/L-2026-08-23.md)
 - [L-2026-08-26 - Git, GitHub, Branches ו-Pull Requests](lessons/L-2026-08-26.md)
+- [L-2026-08-30 - AI-Assisted Coding, Cursor Rules ו-Skills](lessons/L-2026-08-30.md)
 
 ## אינדקסים נוספים
 
 - [כל הוראות המרצה](TEACHER-RULES-INDEX.md)
 - [כל שיעורי הבית](HOMEWORK-INDEX.md)
+- [השוואה בין שיטת שחר לשיטת גל](TEACHER-COMPARISON.md)
 
 ## סדר לימוד מומלץ
 
@@ -43,4 +45,4 @@
 
 ## כלל עבודה
 
-כאשר קיימת הוראה מפורשת של המרצה, היא גוברת על פתרון JavaScript כללי או על Refactor מודרני שלא נלמד בכיתה.
+כאשר קיימת הוראה מפורשת של המרצה, היא גוברת על פתרון כללי. לאחר חילופי המרצים חובה לזהות לאיזו תקופה ולמי שייכת ההוראה: כללי שחר נשמרים למשימות ולמבחן שלו; בעבודה החדשה של גל פועלים לפי ה-Repository וה-Rules של גל.
