@@ -44,6 +44,13 @@ def set_table_geometry(table, widths):
     table.autofit = False
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
     tbl_pr = table._tbl.tblPr
+    # Word needs bidiVisual on the table itself; right-aligned cell text alone
+    # does not reverse the visual column order for a Hebrew document.
+    bidi_visual = tbl_pr.find(qn("w:bidiVisual"))
+    if bidi_visual is None:
+        bidi_visual = OxmlElement("w:bidiVisual")
+        tbl_pr.append(bidi_visual)
+    bidi_visual.set(qn("w:val"), "1")
     tbl_w = tbl_pr.find(qn("w:tblW"))
     if tbl_w is None:
         tbl_w = OxmlElement("w:tblW")
@@ -97,6 +104,11 @@ def set_font(run, size=11, bold=False, color=BLACK, italic=False):
     run._element.get_or_add_rPr().rFonts.set(qn("w:ascii"), "Arial")
     run._element.get_or_add_rPr().rFonts.set(qn("w:hAnsi"), "Arial")
     run._element.get_or_add_rPr().rFonts.set(qn("w:cs"), "Arial")
+    rtl = run._element.get_or_add_rPr().find(qn("w:rtl"))
+    if rtl is None:
+        rtl = OxmlElement("w:rtl")
+        run._element.get_or_add_rPr().append(rtl)
+    rtl.set(qn("w:val"), "1")
     run.font.size = Pt(size)
     run.font.bold = bold
     run.font.italic = italic
@@ -216,6 +228,12 @@ def add_page_number(paragraph):
 
 def configure_document(doc):
     section = doc.sections[0]
+    sect_pr = section._sectPr
+    bidi = sect_pr.find(qn("w:bidi"))
+    if bidi is None:
+        bidi = OxmlElement("w:bidi")
+        sect_pr.append(bidi)
+    bidi.set(qn("w:val"), "1")
     section.page_width = Inches(8.5)
     section.page_height = Inches(11)
     section.top_margin = Inches(0.82)
