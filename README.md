@@ -9,6 +9,7 @@
 - [כל הוראות המרצה](guides/TEACHER-RULES-INDEX.md)
 - [כל שיעורי הבית](guides/HOMEWORK-INDEX.md)
 - [השוואה בין שחר לגל](guides/TEACHER-COMPARISON.md)
+- [מסמך Word לשיתוף עם הכיתה](guides/share/מדריך-מעבר-למורה-החדש.docx)
 - [העלאה בטוחה ל-GitHub](PUBLISH-TO-GITHUB.md)
 - `transcripts/` - עותקי התמלולים לפי מזהה שיעור
 
