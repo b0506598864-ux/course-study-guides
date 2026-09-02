@@ -523,3 +523,45 @@
 - **SOURCE:** `part-2.vtt`
 - **TIMESTAMP:** `01:27:04-01:31:42`
 - **RELATED:** `AI models`
+
+## L-2026-09-02 - TypeScript
+
+### L-2026-09-02-TR01
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** בתרגילי Primitive Types יש לשמור על אותה לוגיקה ורק להוסיף טיפוסים.
+- **SOURCE:** `02-9-Typescript/readme.md`
+- **TIMESTAMP:** `אין עדיין תמלול`
+- **RELATED:** `L-2026-09-02-HW01, L-2026-09-02-HW02`
+
+### L-2026-09-02-TR02
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** יש לתת טיפוס לכל פרמטר, ערך חזרה ומשתנה בעל שם.
+- **SOURCE:** `02-9-Typescript/readme.md`
+- **TIMESTAMP:** `אין עדיין תמלול`
+- **RELATED:** `TypeScript primitive types`
+
+### L-2026-09-02-TR03
+
+- **PRIORITY:** `MUST NOT`
+- **TEACHER RULE:** בתרגילי ה-Primitive Types אין להוסיף `interface`, ‏`type alias` או Object Types.
+- **SOURCE:** `02-9-Typescript/readme.md`
+- **TIMESTAMP:** `אין עדיין תמלול`
+- **RELATED:** `L-2026-09-02-HW01, L-2026-09-02-HW02`
+
+### L-2026-09-02-TR04
+
+- **PRIORITY:** `MUST`
+- **TEACHER RULE:** יש לקמפל בעזרת `tsc` עד שאין שגיאות ולבדוק שהפלט זהה לקוד JavaScript המקורי.
+- **SOURCE:** `02-9-Typescript/readme.md`
+- **TIMESTAMP:** `אין עדיין תמלול`
+- **RELATED:** `TypeScript compilation`
+
+### L-2026-09-02-TR05
+
+- **PRIORITY:** `PREFERRED`
+- **TEACHER RULE:** להפריד בין קוד המקור ב-`src` לבין קוד ה-JavaScript שנוצר ב-`dist`.
+- **SOURCE:** `lab_1/tsconfig.json, Lab_2 instructions`
+- **TIMESTAMP:** `אין עדיין תמלול`
+- **RELATED:** `Project structure`
