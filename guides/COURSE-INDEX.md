@@ -25,7 +25,7 @@
 - [L-2026-08-26 - Git, GitHub, Branches ו-Pull Requests](lessons/L-2026-08-26.md)
 - [L-2026-08-30 - AI-Assisted Coding, Cursor Rules ו-Skills](lessons/L-2026-08-30.md)
 - [L-2026-09-02 - TypeScript, Node.js ו-npm](lessons/L-2026-09-02.md)
-- [L-2026-09-06 - TypeScript: interface, enum, Generics ו-keyof](lessons/L-2026-09-06.md)
+- [L-2026-09-06 - TypeScript מתקדם ומבוא ל-React](lessons/L-2026-09-06.md)
 
 ## אינדקסים נוספים
 
