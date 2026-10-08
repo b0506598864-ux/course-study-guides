@@ -4,6 +4,9 @@
 
 ## כניסה מהירה
 
+- [מתחילים כאן: איך קבצי React מתחברים](guides/ARCHITECTURE-01.md)
+- [שיעור 7 באוקטובר: סינון, טפסים ו-useRef](guides/lessons/L-2026-10-07.md)
+- [מצב התמלולים והחומר החדש](guides/SHARING-STATUS.md)
 - [אינדקס כל השיעורים](guides/COURSE-INDEX.md)
 - [מערכת המזהים](guides/ID-SYSTEM.md)
 - [כל הוראות המרצה](guides/TEACHER-RULES-INDEX.md)
