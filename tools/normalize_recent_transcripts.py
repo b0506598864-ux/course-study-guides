@@ -69,13 +69,13 @@ timing = re.compile(r'\d{2}:\d{2}:\d{2}[.,]\d{3} --> \d{2}:\d{2}:\d{2}[.,]\d{3}'
 
 lessons = [
     ('2026-09-23', '2026-09-23-react', 'תמלול-מלא-large-v3/transcript.srt', 'srt'),
-    ('2026-10-07', '2026-10-07-react-forms', '2026-10-07-part-1-hebrew.vtt', 'vtt'),
+    ('2026-10-04', '2026-10-04-react-redux', '2026-10-04-part-1-hebrew.vtt', 'vtt'),
 ]
 
 def normalize(text, date):
     changes = []
     for old, new, pattern in compiled:
-        # On Oct 7, "מייל ויט" describes weight, NOT the Vite tool.
+        # In the dogs transcript, "מייל ויט" describes weight, NOT the Vite tool.
         if old == 'ויט' and date != '2026-09-23':
             continue
         def replace(match):
@@ -120,8 +120,8 @@ for date, directory, filename, extension in lessons:
         (destination / 'corrections.json').write_text(json.dumps({'date': date, 'source_sha256': hashlib.sha256(original_bytes).hexdigest(), 'source_cues': len(source_times), 'changed_cues': len(audit), 'replacements': sum(counts.values()), 'terms': dict(counts), 'audio_verified': False, 'changes': audit}, ensure_ascii=False, indent=2), encoding='utf-8')
     intro = f'# תמלול שיעור {date} עם מונחים באנגלית\n\n'
     intro += 'עותק לימודי של תמלול אוטומטי. תוקן כתיב של מונחים מזוהים; לא בוצעה הגהה מול האודיו. משפט לא ברור אינו הוראה מאומתת של המרצה. המקור נשמר מקומית ללא שינוי.\n\n'
-    if date == '2026-10-07':
-        intro += 'זהו החלק הארוך בלבד. החלק הנוסף באורך כ־13 דקות עדיין חסר.\n\n'
+    if date == '2026-10-04':
+        intro += 'תאריך השיעור משויך לפי תיקון מפורש של בעל החומר מ־8 באוקטובר 2026. הקובץ סווג קודם בטעות כ־7 באוקטובר. התמלול אינו מכיל תאריך פנימי; חותמות הזמן יחסיות לתחילת הסרטון. שיוך הקלטת ההמשך טעון אימות בנפרד.\n\n'
     intro += f'{len(cues):,} קטעים; {sum(counts.values()):,} החלפות מונחים. כל חותמות הזמן נשמרו.\n\n'
     intro += '[מילון התיקונים](TERMS.md) · [מקומות לבדיקה בהקלטה](NEEDS-AUDIO.md) · [יומן השינויים](corrections.json)\n\n'
     intro += f'[הורדת כתוביות](./{date}-terms-corrected.{extension}) · [קובץ טקסט](./{date}-terms-corrected.txt)\n\n'

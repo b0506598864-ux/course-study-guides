@@ -1,4 +1,4 @@
-# קטעים לבדיקה בהקלטה של 7 באוקטובר
+# קטעים לבדיקה בתמלול המשויך ל־4 באוקטובר
 
 תוקן כתיב של מונחים מזוהים בלבד. המקור הוא תמלול אוטומטי שעבר גם תיקון קידוד, לא תמלול שנבדק מילה במילה מול האודיו. הרשימה הבאה מציגה מוקדים חשובים, ולא את כל השגיאות האפשריות.
 
@@ -14,8 +14,8 @@
 | 03:19:00 עד 03:22:30 | הוראות תרגיל הרשמה, שמות refs וגישה לערכים. אין להפוך שם משובש לפקודה ודאית. |
 | 03:35:26 עד 03:59:49 | useMemo ו־memoization; שמות פונקציות, משתנים וחלקי ההסבר על React Compiler דורשים בדיקה. אין להציג את הטענות המשובשות כעובדות מאומתות. |
 
-לבדיקת קוד: [LoginPageRef](https://github.com/galamo/FS_AI_45800_9/blob/04d81ce/07-10-React/lab_1/src/pages/LoginPageRef/index.tsx), [store.ts](https://github.com/galamo/FS_AI_45800_9/blob/04d81ce/07-10-React/lab_1/src/store/store.ts), [settingsReducer.ts](https://github.com/galamo/FS_AI_45800_9/blob/04d81ce/07-10-React/lab_1/src/store/settingsReducer.ts).
+להשוואת איות בלבד, בקוד מתיקיית 7 באוקטובר: [LoginPageRef](https://github.com/galamo/FS_AI_45800_9/blob/04d81ce/07-10-React/lab_1/src/pages/LoginPageRef/index.tsx), [store.ts](https://github.com/galamo/FS_AI_45800_9/blob/04d81ce/07-10-React/lab_1/src/store/store.ts), [settingsReducer.ts](https://github.com/galamo/FS_AI_45800_9/blob/04d81ce/07-10-React/lab_1/src/store/settingsReducer.ts). מיקום הקוד אינו ראיה לתאריך ההקלטה; השיוך ל־4 באוקטובר הוא לפי בעל החומר.
 
 למשל, בקוד LoginPageRef מופיעים usernameRef.current?.value ו־inputRef. אלה דוגמאות מהקוד, לא שחזור של המילים שנאמרו בסרטון. הכתיב useMemo מבוסס על ההקשר בתמלול; אין טענה שכל דוגמה שהוצגה על המסך קיימת בגרסת הקוד השמורה.
 
-הקלטת ההמשך שאורכה כ־13 דקות עדיין לא כלולה.
+הקלטה נוספת באורך כ־13 דקות עדיין לא כלולה; יש לאמת בנפרד לאיזה שיעור היא שייכת.
