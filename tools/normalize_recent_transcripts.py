@@ -71,6 +71,7 @@ lessons = [
     ('2026-09-23', '2026-09-23-react', 'תמלול-מלא-large-v3/transcript.srt', 'srt'),
     ('2026-10-04', '2026-10-04-react-redux', '2026-10-04-verified-hebrew.vtt', 'vtt'),
     ('2026-10-07', '2026-10-07-react-forms', '2026-10-07-part-1-hebrew.vtt', 'vtt'),
+    ('2026-10-07', '2026-10-07-react-forms', '2026-10-07-part-2-hebrew.vtt', 'vtt'),
 ]
 
 def normalize(text, date):
@@ -88,6 +89,7 @@ def normalize(text, date):
     return text, changes
 
 for date, directory, filename, extension in lessons:
+    part_two = '-part-2-' in filename
     source = base / directory / 'תמלול' / filename
     original_bytes = source.read_bytes()
     original = original_bytes.decode('utf-8-sig')
@@ -104,6 +106,13 @@ for date, directory, filename, extension in lessons:
             continue
         header, text = block[:match.end()], block[match.end():]
         corrected, edits = normalize(text, date)
+        if part_two:
+            for old, new in [('הייר אורדר פאנקשן', 'higher-order function'), ('בקאנד', 'backend')]:
+                pattern = re.compile(r'(?<!\w)' + re.escape(old) + r'(?!\w)')
+                count = len(pattern.findall(corrected))
+                if count:
+                    corrected = pattern.sub(new, corrected)
+                    edits.extend([{'before': old, 'after': new, 'term': new}] * count)
         output.append(header + corrected)
         cues.append((match.group(0), corrected.strip()))
         if edits:
@@ -114,6 +123,9 @@ for date, directory, filename, extension in lessons:
     assert normalized.count('\ufffd') == original.count('\ufffd')
     shared = repo / 'transcripts' / ('L-' + date)
     local = base / directory / 'תמלול' / 'מתוקן-מונחים'
+    if part_two:
+        shared = shared / 'part-2'
+        local = local / 'part-2'
     for destination in (shared, local):
         destination.mkdir(parents=True, exist_ok=True)
         (destination / f'{date}-terms-corrected.{extension}').write_text(normalized, encoding='utf-8-sig')
@@ -123,8 +135,10 @@ for date, directory, filename, extension in lessons:
     intro += 'עותק לימודי של תמלול אוטומטי. תוקן כתיב של מונחים מזוהים; לא בוצעה הגהה מול האודיו. משפט לא ברור אינו הוראה מאומתת של המרצה. המקור נשמר מקומית ללא שינוי.\n\n'
     if date == '2026-10-04':
         intro += 'זהו הקובץ החדש שמתחיל ב־00:05:40, מן הקישור שאותר בנגן המסומן 04.10.2026. הוא שונה מהקובץ שהוצג כאן קודם.\n\n'
-    if date == '2026-10-07':
-        intro += 'זהו החלק הארוך שמתחיל ב־00:01:31. השיוך נתמך בקישור ההקלטה שנצפה ובתרגילי 7 באוקטובר בקוד המרצה. שיוכו הזמני ל־4 באוקטובר בוטל לאחר קבלת התמלול הנפרד של 4 באוקטובר. חלק ההמשך של כ־13 דקות עדיין חסר.\n\n'
+    if date == '2026-10-07' and not part_two:
+        intro += 'זהו החלק הארוך שמתחיל ב־00:01:31. השיוך נתמך בקישור ההקלטה שנצפה ובתרגילי 7 באוקטובר בקוד המרצה. שיוכו הזמני ל־4 באוקטובר בוטל לאחר קבלת התמלול הנפרד של 4 באוקטובר. [המשך השיעור בן כ־13 דקות](part-2/README.md) נשמר בנפרד עם זמני הסרטון הקצר.\n\n'
+    if part_two:
+        intro += 'חלק ההמשך של 7 באוקטובר. הזמנים מתחילים מחדש ביחס לסרטון הקצר; לא נוספו להם ארבע שעות. [לחלק הראשון](../README.md).\n\n'
     intro += f'{len(cues):,} קטעים; {sum(counts.values()):,} החלפות מונחים. כל חותמות הזמן נשמרו.\n\n'
     intro += '[מילון התיקונים](TERMS.md) · [מקומות לבדיקה בהקלטה](NEEDS-AUDIO.md) · [יומן השינויים](corrections.json)\n\n'
     intro += f'[הורדת כתוביות](./{date}-terms-corrected.{extension}) · [קובץ טקסט](./{date}-terms-corrected.txt)\n\n'
@@ -132,6 +146,8 @@ for date, directory, filename, extension in lessons:
     (shared / 'README.md').write_text(readable, encoding='utf-8')
     glossary = '# המונחים שתוקנו בתמלול\n\nהטבלה מציגה כתיב ולא הגדרה: מונח באנגלית אינו בהכרח פקודה או שם משתנה. שמות מתכנת ומילים כלליות לא הומרו למזהי קוד על סמך דמיון בלבד.\n\n| בתמלול המקורי | הכתיב באנגלית |\n|---|---|\n'
     glossary += '\n'.join(f'| {old} | `{new}` |' for old, new in rules if new in counts and any(old in a['original'] for a in audit)) + '\n'
+    if part_two:
+        glossary += '\n| הייר אורדר פאנקשן | `higher-order function` |\n| בקאנד | `backend` |\n'
     (shared / 'TERMS.md').write_text(glossary, encoding='utf-8')
     # Verify original file is untouched, timestamps and export encoding survive disk roundtrip.
     assert source.read_bytes() == original_bytes
