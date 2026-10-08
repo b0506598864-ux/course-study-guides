@@ -1,0 +1,4175 @@
+{
+  "date": "2026-09-23",
+  "source_sha256": "80f52b4a59eeaf94d682bbc86cc12b81bf8676f98eb2ac8015427b1757c29238",
+  "source_cues": 4050,
+  "changed_cues": 320,
+  "replacements": 379,
+  "terms": {
+    "React": 33,
+    "TypeScript": 7,
+    "README": 3,
+    "component": 98,
+    "components": 44,
+    "context": 37,
+    "Provider": 10,
+    "Vite": 8,
+    "props": 11,
+    "state": 28,
+    "handler": 4,
+    "hook": 16,
+    "useState": 4,
+    "states": 3,
+    "hooks": 3,
+    "StrictMode": 1,
+    "useEffect": 1,
+    "Route": 31,
+    "routing": 11,
+    "BrowserRouter": 3,
+    "router": 10,
+    "Routes": 2,
+    "react-router-dom": 1,
+    "routes": 5,
+    "useLocation": 1,
+    "useNavigate": 1,
+    "RouterProvider": 2,
+    "Redux": 1
+  },
+  "audio_verified": false,
+  "changes": [
+    {
+      "timestamp": "00:02:21,300 --> 00:02:22,980",
+      "original": "ריאקט מלא מה יש לי לתקב על",
+      "corrected": "React מלא מה יש לי לתקב על",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:02:53,640 --> 00:02:55,520",
+      "original": "התחלנו ריאקט לפני, כן? למה התחלנו",
+      "corrected": "התחלנו React לפני, כן? למה התחלנו",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:02:55,520 --> 00:02:57,120",
+      "original": "ריאקט טיפה לפני? אני אסביר.",
+      "corrected": "React טיפה לפני? אני אסביר.",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:02:57,540 --> 00:02:59,820",
+      "original": "בגדול, לא היה הרבה יותר מדי מה ללמד על טייפסקריפט,",
+      "corrected": "בגדול, לא היה הרבה יותר מדי מה ללמד על TypeScript,",
+      "changes": [
+        {
+          "before": "טייפסקריפט",
+          "after": "TypeScript",
+          "term": "TypeScript"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:03:00,140 --> 00:03:01,860",
+      "original": "ורוב הדברים שאני מראה בטייפסקריפט",
+      "corrected": "ורוב הדברים שאני מראה ב־TypeScript",
+      "changes": [
+        {
+          "before": "בטייפסקריפט",
+          "after": "ב־TypeScript",
+          "term": "TypeScript"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:03:01,860 --> 00:03:18,560",
+      "original": "אתם גם משתלבים עם ריאקט כותבים ריאקט ועם נו ג'י אס אז מה אני עושה בדרך כלל אתם מראה את הבסיס את הבסיס את הקומפיילר את איך לעשות את הדברים ואז כאילו אנחנו נכתוב ריאקט עם טייפ סקיפט לאורך כל הקורס אתה מבין מה אני אומר אותו דבר.",
+      "corrected": "אתם גם משתלבים עם React כותבים React ועם נו ג'י אס אז מה אני עושה בדרך כלל אתם מראה את הבסיס את הבסיס את הקומפיילר את איך לעשות את הדברים ואז כאילו אנחנו נכתוב React עם טייפ סקיפט לאורך כל הקורס אתה מבין מה אני אומר אותו דבר.",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        },
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        },
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:03:40,080 --> 00:03:42,300",
+      "original": "כל הריאקט פרוג'קט שפתחתי עד עכשיו",
+      "corrected": "כל ה־React פרוג'קט שפתחתי עד עכשיו",
+      "changes": [
+        {
+          "before": "הריאקט",
+          "after": "ה־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:05:56,840 --> 00:05:58,160",
+      "original": "תמיד הרידמי, יש רידמי.",
+      "corrected": "תמיד ה־README, יש README.",
+      "changes": [
+        {
+          "before": "הרידמי",
+          "after": "ה־README",
+          "term": "README"
+        },
+        {
+          "before": "רידמי",
+          "after": "README",
+          "term": "README"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:06:01,280 --> 00:06:01,960",
+      "original": "סו תראו את הרידמי.",
+      "corrected": "סו תראו את ה־README.",
+      "changes": [
+        {
+          "before": "הרידמי",
+          "after": "ה־README",
+          "term": "README"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:09:16,360 --> 00:09:18,380",
+      "original": "יוסיף פיצ'ר חדש, קומפוננטה חדשה",
+      "corrected": "יוסיף פיצ'ר חדש, component חדשה",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:09:59,020 --> 00:10:00,720",
+      "original": "לעשות איזושהי קומפוננטה",
+      "corrected": "לעשות איזושהי component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:10:21,400 --> 00:10:23,560",
+      "original": "reuse לקומפוננטות קיימת או שהוא הלך ועשה",
+      "corrected": "reuse ל־components קיימת או שהוא הלך ועשה",
+      "changes": [
+        {
+          "before": "לקומפוננטות",
+          "after": "ל־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:11:09,020 --> 00:11:11,000",
+      "original": "קומפוננטות",
+      "corrected": "components",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:11:15,240 --> 00:11:17,180",
+      "original": "לregion filter, בקומפוננט",
+      "corrected": "לregion filter, ב־component",
+      "changes": [
+        {
+          "before": "בקומפוננט",
+          "after": "ב־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:11:26,820 --> 00:11:28,740",
+      "original": "אתה רוצה שהוא יבנה את זה בקומפוננטות",
+      "corrected": "אתה רוצה שהוא יבנה את זה ב־components",
+      "changes": [
+        {
+          "before": "בקומפוננטות",
+          "after": "ב־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:11:28,740 --> 00:11:31,140",
+      "original": "ורצו לאחר זה לעשות ריוז לקומפוננטה",
+      "corrected": "ורצו לאחר זה לעשות ריוז ל־component",
+      "changes": [
+        {
+          "before": "לקומפוננטה",
+          "after": "ל־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:11:32,000 --> 00:11:34,840",
+      "original": "אם כל הקומפוננטות שלך היו ביחד באותו מקום",
+      "corrected": "אם כל ה־components שלך היו ביחד באותו מקום",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:12:38,600 --> 00:12:46,660",
+      "original": "זה גם בעיית זאת אומרת באיזה שהוא מובן והגבו יכול פספס פה נקודה אחת זה לא בפרקטיס זאת אומרת כן כן רצוי ונכון שלי קומפוננט אחת.",
+      "corrected": "זה גם בעיית זאת אומרת באיזה שהוא מובן והגבו יכול פספס פה נקודה אחת זה לא בפרקטיס זאת אומרת כן כן רצוי ונכון שלי component אחת.",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:13:15,300 --> 00:13:17,760",
+      "original": "יציף לכם את הקונטקסט",
+      "corrected": "יציף לכם את ה־context",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:13:22,760 --> 00:13:25,880",
+      "original": "ידע בעצם, זאת אומרת, הווינדאו של הקונטקסט",
+      "corrected": "ידע בעצם, זאת אומרת, הווינדאו של ה־context",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:13:58,500 --> 00:14:00,800",
+      "original": "אתה באותו קונטקסט",
+      "corrected": "אתה באותו context",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:14:48,160 --> 00:14:50,860",
+      "original": "ואז זה הקונטקסט שלנו מעכשיו זהו",
+      "corrected": "ואז זה ה־context שלנו מעכשיו זהו",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:14:50,860 --> 00:14:52,920",
+      "original": "עכשיו תראה קורסור סטנדרט קונטקסט וינדו",
+      "corrected": "עכשיו תראה קורסור סטנדרט context וינדו",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:15:38,940 --> 00:15:39,920",
+      "original": "באמת הקונטקסט נהיה טוב",
+      "corrected": "באמת ה־context נהיה טוב",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:17:12,140 --> 00:17:13,680",
+      "original": "לנושא שהוא לא ריאקט בכלל, כן",
+      "corrected": "לנושא שהוא לא React בכלל, כן",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:18:03,360 --> 00:18:05,800",
+      "original": "זה הקונטקסט שלכם",
+      "corrected": "זה ה־context שלכם",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:19:13,680 --> 00:19:15,440",
+      "original": "את הקונטקסט הרלוונטי עבור כל מודל",
+      "corrected": "את ה־context הרלוונטי עבור כל מודל",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:19:24,300 --> 00:19:26,840",
+      "original": "כמו פסים כאלה שהם הקונטקסט של השיחה",
+      "corrected": "כמו פסים כאלה שהם ה־context של השיחה",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:19:26,840 --> 00:19:40,660",
+      "original": "של השיחה הזאת שאני מדבר עליה אוקיי עם הקונטקסט השיחה שאני מדבר שאני מדבר עליה עכשיו זה עכשיו הוא כבר קצת איטי אז אני לא רוצה לגעת בו כאילו.",
+      "corrected": "של השיחה הזאת שאני מדבר עליה אוקיי עם ה־context השיחה שאני מדבר שאני מדבר עליה עכשיו זה עכשיו הוא כבר קצת איטי אז אני לא רוצה לגעת בו כאילו.",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:20:01,460 --> 00:20:03,960",
+      "original": "מקסימום קונטקסט מיליון",
+      "corrected": "מקסימום context מיליון",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:20:28,010 --> 00:20:30,850",
+      "original": "קונטקסט שנותנים",
+      "corrected": "context שנותנים",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:21:13,550 --> 00:21:15,510",
+      "original": "חלון חדש לגדול, צור קומפוננטה חדשה",
+      "corrected": "חלון חדש לגדול, צור component חדשה",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:21:23,570 --> 00:21:25,230",
+      "original": "מפ, איזה פרוביידר אני רוצה",
+      "corrected": "מפ, איזה Provider אני רוצה",
+      "changes": [
+        {
+          "before": "פרוביידר",
+          "after": "Provider",
+          "term": "Provider"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:21:27,430 --> 00:21:58,930",
+      "original": "זה לא על כל העמוד וכן הלאה וכן הלאה בסדר כאילו כל הנושאים האלה אמורים להילקח מחשבון שנותן לו פומט שאלות נוספות בינתיים אוקיי ריקאפ היה לנו טייפ סקריפט קומפילציה של טייפ סקריפט היה לנו התחילת עבודה עם ריאקט עוד רגע אני אעשה ריקאפ על הנושאים שנגענו בהם בצורה מהירה חשוב לי מאוד להגיד עוד משהו אחד כן שימו לב אנחנו השתמשנו כדי לפתח בריאקט בסביבת עבודה שקוראים לה ויט נכון נכון",
+      "corrected": "זה לא על כל העמוד וכן הלאה וכן הלאה בסדר כאילו כל הנושאים האלה אמורים להילקח מחשבון שנותן לו פומט שאלות נוספות בינתיים אוקיי ריקאפ היה לנו TypeScript קומפילציה של TypeScript היה לנו התחילת עבודה עם React עוד רגע אני אעשה ריקאפ על הנושאים שנגענו בהם בצורה מהירה חשוב לי מאוד להגיד עוד משהו אחד כן שימו לב אנחנו השתמשנו כדי לפתח ב־React בסביבת עבודה שקוראים לה Vite נכון נכון",
+      "changes": [
+        {
+          "before": "טייפ סקריפט",
+          "after": "TypeScript",
+          "term": "TypeScript"
+        },
+        {
+          "before": "טייפ סקריפט",
+          "after": "TypeScript",
+          "term": "TypeScript"
+        },
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        },
+        {
+          "before": "בריאקט",
+          "after": "ב־React",
+          "term": "React"
+        },
+        {
+          "before": "ויט",
+          "after": "Vite",
+          "term": "Vite"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:22:47,950 --> 00:22:49,390",
+      "original": "לאיך אני מריץ פרויקט בריאקט",
+      "corrected": "לאיך אני מריץ פרויקט ב־React",
+      "changes": [
+        {
+          "before": "בריאקט",
+          "after": "ב־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:22:59,260 --> 00:23:01,040",
+      "original": "הוא פה הינה הוא דב ויט",
+      "corrected": "הוא פה הינה הוא דב Vite",
+      "changes": [
+        {
+          "before": "ויט",
+          "after": "Vite",
+          "term": "Vite"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:23:01,040 --> 00:23:02,540",
+      "original": "עוריץ פקודת ויט",
+      "corrected": "עוריץ פקודת Vite",
+      "changes": [
+        {
+          "before": "ויט",
+          "after": "Vite",
+          "term": "Vite"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:23:02,540 --> 00:23:05,240",
+      "original": "אין לי ויט מה אני צריך לעשות אומר לי אין לך ויט",
+      "corrected": "אין לי Vite מה אני צריך לעשות אומר לי אין לך Vite",
+      "changes": [
+        {
+          "before": "ויט",
+          "after": "Vite",
+          "term": "Vite"
+        },
+        {
+          "before": "ויט",
+          "after": "Vite",
+          "term": "Vite"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:23:34,950 --> 00:23:36,690",
+      "original": "אין לי ויט",
+      "corrected": "אין לי Vite",
+      "changes": [
+        {
+          "before": "ויט",
+          "after": "Vite",
+          "term": "Vite"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:23:39,610 --> 00:23:40,310",
+      "original": "אין לי ויט",
+      "corrected": "אין לי Vite",
+      "changes": [
+        {
+          "before": "ויט",
+          "after": "Vite",
+          "term": "Vite"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:26:59,030 --> 00:26:59,490",
+      "original": "ריאקט",
+      "corrected": "React",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:31:59,400 --> 00:32:29,220",
+      "original": "יחזור אליו שנייה אחת הנה אביסטור שלי 5173 שמריצים אותו ושרצתי כי היה הרבה אנשים שלא הצליחו להריץ לדעתי בשיעור שעבר נכון היה כמה חבר'ה שלא הצליחו להריץ כל כך את הוויט אז אז למעשה ראינו שברגע שאנחנו מקבלים איזה שהם תמון זאת אומרת אנחנו מקבלים איזה שהם מידע של יוזרים רנדום יוזר אז אני מקבל את זה פה כן אני יכול גם לראות סתם.",
+      "corrected": "יחזור אליו שנייה אחת הנה אביסטור שלי 5173 שמריצים אותו ושרצתי כי היה הרבה אנשים שלא הצליחו להריץ לדעתי בשיעור שעבר נכון היה כמה חבר'ה שלא הצליחו להריץ כל כך את הו־Vite אז אז למעשה ראינו שברגע שאנחנו מקבלים איזה שהם תמון זאת אומרת אנחנו מקבלים איזה שהם מידע של יוזרים רנדום יוזר אז אני מקבל את זה פה כן אני יכול גם לראות סתם.",
+      "changes": [
+        {
+          "before": "הוויט",
+          "after": "הו־Vite",
+          "term": "Vite"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:33:03,180 --> 00:33:05,020",
+      "original": "בקומפוננטות שלנו, יש לנו את הקומפוננט",
+      "corrected": "ב־components שלנו, יש לנו את ה־component",
+      "changes": [
+        {
+          "before": "בקומפוננטות",
+          "after": "ב־components",
+          "term": "components"
+        },
+        {
+          "before": "הקומפוננט",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:33:06,380 --> 00:33:09,440",
+      "original": "הקומפוננט הראשית שמחזירה",
+      "corrected": "ה־component הראשית שמחזירה",
+      "changes": [
+        {
+          "before": "הקומפוננט",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:33:15,080 --> 00:33:17,440",
+      "original": "avistore, src, קומפוננט",
+      "corrected": "avistore, src, component",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:33:29,700 --> 00:33:31,640",
+      "original": "קומפוננטה בעצם מקבלת",
+      "corrected": "component בעצם מקבלת",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:33:31,640 --> 00:33:35,180",
+      "original": "מה יכולה לקבל כל קומפוננטה",
+      "corrected": "מה יכולה לקבל כל component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:33:35,180 --> 00:33:36,840",
+      "original": "פרופס זוכרים פרופס",
+      "corrected": "props זוכרים props",
+      "changes": [
+        {
+          "before": "פרופס",
+          "after": "props",
+          "term": "props"
+        },
+        {
+          "before": "פרופס",
+          "after": "props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:33:38,840 --> 00:33:40,640",
+      "original": "את הקומפוננטה ולעשות בה שימוש חוזר",
+      "corrected": "את ה־component ולעשות בה שימוש חוזר",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:34:49,050 --> 00:34:50,590",
+      "original": "לגבי פרופס, טייפים",
+      "corrected": "לגבי props, טייפים",
+      "changes": [
+        {
+          "before": "פרופס",
+          "after": "props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:34:50,590 --> 00:34:52,770",
+      "original": "דברים שאנחנו מעבירים לקומפוננטות",
+      "corrected": "דברים שאנחנו מעבירים ל־components",
+      "changes": [
+        {
+          "before": "לקומפוננטות",
+          "after": "ל־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:34:54,850 --> 00:34:55,310",
+      "original": "הסטייט?",
+      "corrected": "ה־state?",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:35:21,380 --> 00:35:29,040",
+      "original": "אצא לי שאני כאילו את חייב לשים בכל זה חייב כאילו לשים לו טייפ של מה שמקבל בפרופס כאילו לא כל פי זה.",
+      "corrected": "אצא לי שאני כאילו את חייב לשים בכל זה חייב כאילו לשים לו טייפ של מה שמקבל ב־props כאילו לא כל פי זה.",
+      "changes": [
+        {
+          "before": "בפרופס",
+          "after": "ב־props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:36:18,130 --> 00:36:20,010",
+      "original": "אז היה לנו את הפרופס, היה לנו",
+      "corrected": "אז היה לנו את ה־props, היה לנו",
+      "changes": [
+        {
+          "before": "הפרופס",
+          "after": "ה־props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:36:20,010 --> 00:36:22,130",
+      "original": "גם משהו מאוד מאוד חשוב, את הסטייט",
+      "corrected": "גם משהו מאוד מאוד חשוב, את ה־state",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:36:22,130 --> 00:36:24,290",
+      "original": "זוכרים? הסטייט דיברנו",
+      "corrected": "זוכרים? ה־state דיברנו",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:37:21,850 --> 00:37:23,710",
+      "original": "הנה ההנדלר שלי",
+      "corrected": "הנה ה־handler שלי",
+      "changes": [
+        {
+          "before": "ההנדלר",
+          "after": "ה־handler",
+          "term": "handler"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:37:38,510 --> 00:37:40,610",
+      "original": "בטייפ סקריפט את",
+      "corrected": "ב־TypeScript את",
+      "changes": [
+        {
+          "before": "בטייפ סקריפט",
+          "after": "ב־TypeScript",
+          "term": "TypeScript"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:37:55,710 --> 00:37:59,410",
+      "original": "של הסטייט כאן הוא בוליאני",
+      "corrected": "של ה־state כאן הוא בוליאני",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:38:55,250 --> 00:38:57,470",
+      "original": "להייד ואתם זה הסטייט",
+      "corrected": "להייד ואתם זה ה־state",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:39:02,590 --> 00:39:05,430",
+      "original": "הקומפוננטה התרנדרה שוב זוכרים מה קורה",
+      "corrected": "ה־component התרנדרה שוב זוכרים מה קורה",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:39:05,430 --> 00:39:06,870",
+      "original": "לקומפוננטה היא מתרנדרת שוב",
+      "corrected": "ל־component היא מתרנדרת שוב",
+      "changes": [
+        {
+          "before": "לקומפוננטה",
+          "after": "ל־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:39:08,450 --> 00:39:11,330",
+      "original": "העיתוב הסטייט",
+      "corrected": "העיתוב ה־state",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:39:13,270 --> 00:39:15,690",
+      "original": "האנטלר אבל בפועל הוא מרנדר את הקומפוננט",
+      "corrected": "האנטלר אבל בפועל הוא מרנדר את ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננט",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:39:41,450 --> 00:39:42,510",
+      "original": "לידי שימוש בהוק",
+      "corrected": "לידי שימוש ב־hook",
+      "changes": [
+        {
+          "before": "בהוק",
+          "after": "ב־hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:39:42,510 --> 00:39:43,730",
+      "original": "של you state",
+      "corrected": "של useState",
+      "changes": [
+        {
+          "before": "you state",
+          "after": "useState",
+          "term": "useState"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:39:43,730 --> 00:39:45,570",
+      "original": "זוכרים את ההוק של you state",
+      "corrected": "זוכרים את ה־hook של useState",
+      "changes": [
+        {
+          "before": "you state",
+          "after": "useState",
+          "term": "useState"
+        },
+        {
+          "before": "ההוק",
+          "after": "ה־hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:42:05,540 --> 00:42:06,480",
+      "original": "הטייפ סקריפט רגע",
+      "corrected": "ה־TypeScript רגע",
+      "changes": [
+        {
+          "before": "הטייפ סקריפט",
+          "after": "ה־TypeScript",
+          "term": "TypeScript"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:43:40,540 --> 00:44:09,740",
+      "original": "קיצר אין לי מושג מה הוא רצה פה ולמה זה לא עבד אבל אבל אבל זה בסדר אני מפעיל אותו פשוט כנראה שהכל ביחד לא יודע משהו פה היה סלט בקופי פייסט אבל אבל ברמת העיקרון אתם יכולים לראות שהדברים האלה כאילו זה ככה עובד היוסטייט ככה עובד ההוק למעשה ככה עובד ההוק בסדר אוקיי אז יש לי פה כמה כמה הוקים שמשתמשים בהם כיוסטייט עבור הסטייטים השונים",
+      "corrected": "קיצר אין לי מושג מה הוא רצה פה ולמה זה לא עבד אבל אבל אבל זה בסדר אני מפעיל אותו פשוט כנראה שהכל ביחד לא יודע משהו פה היה סלט בקופי פייסט אבל אבל ברמת העיקרון אתם יכולים לראות שהדברים האלה כאילו זה ככה עובד ה־useState ככה עובד ה־hook למעשה ככה עובד ה־hook בסדר אוקיי אז יש לי פה כמה כמה hooks שמשתמשים בהם כ־useState עבור ה־states השונים",
+      "changes": [
+        {
+          "before": "היוסטייט",
+          "after": "ה־useState",
+          "term": "useState"
+        },
+        {
+          "before": "כיוסטייט",
+          "after": "כ־useState",
+          "term": "useState"
+        },
+        {
+          "before": "הסטייטים",
+          "after": "ה־states",
+          "term": "states"
+        },
+        {
+          "before": "הוקים",
+          "after": "hooks",
+          "term": "hooks"
+        },
+        {
+          "before": "ההוק",
+          "after": "ה־hook",
+          "term": "hook"
+        },
+        {
+          "before": "ההוק",
+          "after": "ה־hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:44:23,020 --> 00:44:31,700",
+      "original": "אבל אם זה כאילו כמה דברים קטנים כאלה חשוב לפצל אותם כדי שלכל אחד יהיה את הstate שלו גם ככה ריאקט יודע אחרי זה לעשות את המרג' מאחורי הקלעים,",
+      "corrected": "אבל אם זה כאילו כמה דברים קטנים כאלה חשוב לפצל אותם כדי שלכל אחד יהיה את הstate שלו גם ככה React יודע אחרי זה לעשות את המרג' מאחורי הקלעים,",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:44:38,320 --> 00:45:07,040",
+      "original": "אז הנה השורמאפ הנה האנדלר והנה הבוליאן והנה התנאי שהוא נכנס כן שהוא גם חלק מהסיפור פה מה שכן יפה פה בכל מה שאני אוהב זה שאני אגיד סתם לוד מור יוזרס ולוד יוזרס באטן למה קטע למה אני רוצה את זה אני רוצה את זה גם.",
+      "corrected": "אז הנה השורמאפ הנה ה־handler והנה הבוליאן והנה התנאי שהוא נכנס כן שהוא גם חלק מהסיפור פה מה שכן יפה פה בכל מה שאני אוהב זה שאני אגיד סתם לוד מור יוזרס ולוד יוזרס באטן למה קטע למה אני רוצה את זה אני רוצה את זה גם.",
+      "changes": [
+        {
+          "before": "האנדלר",
+          "after": "ה־handler",
+          "term": "handler"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:45:37,110 --> 00:46:05,200",
+      "original": "אופר אופר איז רנדרינג זה קומפוננט כאילו כל כל כליק שלי הדבר הזה צריך לרוץ כי בעצם קומפוננטה מתרנדרת אוקיי אז בוא נראה למה למה הוא מריץ לי פה את השגיאות האלה רגע שנייה הוא מציק לי מאוד",
+      "corrected": "אופר אופר איז רנדרינג זה component כאילו כל כל כליק שלי הדבר הזה צריך לרוץ כי בעצם component מתרנדרת אוקיי אז בוא נראה למה למה הוא מריץ לי פה את השגיאות האלה רגע שנייה הוא מציק לי מאוד",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        },
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:46:44,240 --> 00:46:46,040",
+      "original": "על הקומפוננטה סטריקט מוט שעוטפת",
+      "corrected": "על ה־component StrictMode שעוטפת",
+      "changes": [
+        {
+          "before": "סטריקט מוט",
+          "after": "StrictMode",
+          "term": "StrictMode"
+        },
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:46:48,240 --> 00:46:50,680",
+      "original": "זה כמו מאונטינג ואן מאונטינג לקומפוננטה",
+      "corrected": "זה כמו מאונטינג ואן מאונטינג ל־component",
+      "changes": [
+        {
+          "before": "לקומפוננטה",
+          "after": "ל־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:46:52,140 --> 00:46:54,560",
+      "original": "באגים בריאקט זה בדרך בדבלופמנט",
+      "corrected": "באגים ב־React זה בדרך בדבלופמנט",
+      "changes": [
+        {
+          "before": "בריאקט",
+          "after": "ב־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:47:05,160 --> 00:47:06,880",
+      "original": "ריאקט עושים את זה כדי",
+      "corrected": "React עושים את זה כדי",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:47:11,300 --> 00:47:13,420",
+      "original": "במאונטינג ואנמאונטינג של קומפוננטה",
+      "corrected": "במאונטינג ואנמאונטינג של component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:47:22,400 --> 00:47:24,260",
+      "original": "מרנדרים את הקומפוננטה שלכם פעמיים",
+      "corrected": "מרנדרים את ה־component שלכם פעמיים",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:47:53,290 --> 00:47:54,630",
+      "original": "סטייט",
+      "corrected": "state",
+      "changes": [
+        {
+          "before": "סטייט",
+          "after": "state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:47:54,630 --> 00:47:56,090",
+      "original": "פרופס",
+      "corrected": "props",
+      "changes": [
+        {
+          "before": "פרופס",
+          "after": "props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:47:56,090 --> 00:48:06,150",
+      "original": "וכמובן שהיה לנו גם את השימוש ביוז אפקט שזה עוד דוק עוד סוג של דוק שאחראי לעשות צייד אפקט קריאות לשרת אוקיי בסדר",
+      "corrected": "וכמובן שהיה לנו גם את השימוש ב־useEffect שזה עוד דוק עוד סוג של דוק שאחראי לעשות צייד אפקט קריאות לשרת אוקיי בסדר",
+      "changes": [
+        {
+          "before": "ביוז אפקט",
+          "after": "ב־useEffect",
+          "term": "useEffect"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:48:12,590 --> 00:48:20,210",
+      "original": "אבל כל פעם שאני לוחץ על הסטייט נגיד בוא נחשב שנייה אחת אם אני רוצה בכוונה לשים פה את זה",
+      "corrected": "אבל כל פעם שאני לוחץ על ה־state נגיד בוא נחשב שנייה אחת אם אני רוצה בכוונה לשים פה את זה",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:48:42,760 --> 00:48:44,300",
+      "original": "שהקומפוננט המתאים",
+      "corrected": "שה־component המתאים",
+      "changes": [
+        {
+          "before": "שהקומפוננט",
+          "after": "שה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:49:15,890 --> 00:49:20,890",
+      "original": "אם שאני משנה את הstate הקומפוננטה מתרנדרת הרי מה זה מתרנדר זה סקריפט שרץ זה javascript רץ",
+      "corrected": "אם שאני משנה את הstate ה־component מתרנדרת הרי מה זה מתרנדר זה סקריפט שרץ זה javascript רץ",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:49:27,550 --> 00:49:29,530",
+      "original": "הסטייט לא מתהתחל שוב פעם",
+      "corrected": "ה־state לא מתהתחל שוב פעם",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:49:51,450 --> 00:49:53,370",
+      "original": "של הקומפוננטה, מוצגת",
+      "corrected": "של ה־component, מוצגת",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:50:02,130 --> 00:50:03,990",
+      "original": "דוגמה לקומפוננט השני נעלמת, בוא נדבר על זה",
+      "corrected": "דוגמה ל־component השני נעלמת, בוא נדבר על זה",
+      "changes": [
+        {
+          "before": "לקומפוננט",
+          "after": "ל־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:50:23,620 --> 00:51:10,280",
+      "original": "אני צריך אבל אני צריך load users גם נכון אז נעשה ביחד עם load users בוא נביא את load users ללמעלה רגע כדי שיהיה נוח לכולם גם לי וגם לכם בוא ניקח את זה רגע ללמעלה פה פה פה הנה עכשיו יש לי פה את הshow map או hide map עכשיו שאני עושה show map מן הסתם שגם הקומפוננטה של המאפ מתרנדרת נכון פעם הראשונה אוקיי עכשיו אם אני אומר לו load more users מה קורה גם הכל מתרנדר",
+      "corrected": "אני צריך אבל אני צריך load users גם נכון אז נעשה ביחד עם load users בוא נביא את load users ללמעלה רגע כדי שיהיה נוח לכולם גם לי וגם לכם בוא ניקח את זה רגע ללמעלה פה פה פה הנה עכשיו יש לי פה את הshow map או hide map עכשיו שאני עושה show map מן הסתם שגם ה־component של המאפ מתרנדרת נכון פעם הראשונה אוקיי עכשיו אם אני אומר לו load more users מה קורה גם הכל מתרנדר",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:51:12,180 --> 00:51:14,020",
+      "original": "נכון הסטייט משתנה",
+      "corrected": "נכון ה־state משתנה",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:51:14,020 --> 00:51:15,640",
+      "original": "איזה סטייט הפעם משתנה של היוזרים",
+      "corrected": "איזה state הפעם משתנה של היוזרים",
+      "changes": [
+        {
+          "before": "סטייט",
+          "after": "state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:51:29,820 --> 00:51:31,100",
+      "original": "הנדור הסטייט",
+      "corrected": "הנדור ה־state",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:51:53,180 --> 00:51:55,060",
+      "original": "מה קורה לקומפוננטות שלי? כולם מתרנדרות",
+      "corrected": "מה קורה ל־components שלי? כולם מתרנדרות",
+      "changes": [
+        {
+          "before": "לקומפוננטות",
+          "after": "ל־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:52:09,020 --> 00:52:11,180",
+      "original": "ריאקט מצייר אותו שוב?",
+      "corrected": "React מצייר אותו שוב?",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:52:13,000 --> 00:52:15,640",
+      "original": "כי הוא מריאקט, לא היה שום שינוי",
+      "corrected": "כי הוא מ־React, לא היה שום שינוי",
+      "changes": [
+        {
+          "before": "מריאקט",
+          "after": "מ־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:52:49,220 --> 00:52:51,920",
+      "original": "המפה נשאר, הסטייט נשמר",
+      "corrected": "המפה נשאר, ה־state נשמר",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:52:59,680 --> 00:53:01,780",
+      "original": "הסטייט של הקומפוננטה",
+      "corrected": "ה־state של ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        },
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:53:15,750 --> 00:53:17,810",
+      "original": "רמת הספרייה של ריאקט",
+      "corrected": "רמת הספרייה של React",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:53:17,810 --> 00:53:20,310",
+      "original": "ובריאקט הם מתארים את זה",
+      "corrected": "וב־React הם מתארים את זה",
+      "changes": [
+        {
+          "before": "ובריאקט",
+          "after": "וב־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:53:20,310 --> 00:53:22,670",
+      "original": "סוג של מערך של כל הסטייטים",
+      "corrected": "סוג של מערך של כל ה־states",
+      "changes": [
+        {
+          "before": "הסטייטים",
+          "after": "ה־states",
+          "term": "states"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:53:22,670 --> 00:53:24,890",
+      "original": "של כל הסטייטים",
+      "corrected": "של כל ה־states",
+      "changes": [
+        {
+          "before": "הסטייטים",
+          "after": "ה־states",
+          "term": "states"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:53:24,890 --> 00:53:26,010",
+      "original": "שהיו לקומפוננטה הזאת",
+      "corrected": "שהיו ל־component הזאת",
+      "changes": [
+        {
+          "before": "לקומפוננטה",
+          "after": "ל־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:57:12,120 --> 00:57:15,920",
+      "original": "בתוך הקומפוננט",
+      "corrected": "בתוך ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננט",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:58:32,260 --> 00:58:33,920",
+      "original": "אני רוצה את זה בתוך הקומפוננטה של",
+      "corrected": "אני רוצה את זה בתוך ה־component של",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:58:39,900 --> 00:58:42,140",
+      "original": "בריאקט באופן כללי אם אנחנו לא נעבוד",
+      "corrected": "ב־React באופן כללי אם אנחנו לא נעבוד",
+      "changes": [
+        {
+          "before": "בריאקט",
+          "after": "ב־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "00:59:46,220 --> 00:59:48,640",
+      "original": "הוא מוסיף את זה לפרופס כי הוא צריך",
+      "corrected": "הוא מוסיף את זה ל־props כי הוא צריך",
+      "changes": [
+        {
+          "before": "לפרופס",
+          "after": "ל־props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:00:02,720 --> 01:00:04,560",
+      "original": "אני יכול להסביר גם למה כי הקומפוננטה הזאת",
+      "corrected": "אני יכול להסביר גם למה כי ה־component הזאת",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:00:04,560 --> 01:00:06,580",
+      "original": "צריכה להיות קומפוננטה ולא",
+      "corrected": "צריכה להיות component ולא",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:00:10,780 --> 01:00:12,400",
+      "original": "בתוך איזושהי קומפוננטה",
+      "corrected": "בתוך איזושהי component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:00:26,380 --> 01:00:28,040",
+      "original": "אני רוצה קומפוננט הנפרדת.",
+      "corrected": "אני רוצה component הנפרדת.",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:01:00,140 --> 01:01:01,760",
+      "original": "כקומפוננטה נוספת",
+      "corrected": "כ־component נוספת",
+      "changes": [
+        {
+          "before": "כקומפוננטה",
+          "after": "כ־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:02:08,980 --> 01:02:10,720",
+      "original": "הוא רשיף קומפוננטה כזאת",
+      "corrected": "הוא רשיף component כזאת",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:02:18,660 --> 01:02:20,680",
+      "original": "קומפוננטה יותר נוח לראות את זה מאשר",
+      "corrected": "component יותר נוח לראות את זה מאשר",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:05:43,100 --> 01:05:46,140",
+      "original": "מה הופך להיות הקי של הקומפוננטה",
+      "corrected": "מה הופך להיות הקי של ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:06:22,320 --> 01:06:40,220",
+      "original": "קודם כל עזבו שהוא גם פה עשה טעות אני עוד רגע אסביר מה הטעות שהוא עשה פה הלו הוא השתמש ב UUID של הלוגין סינגל יוזר אז זה סבבה הוא לא עשה טעות סליחה הוא עשה את זה הסיבה שאני אסלשתי את זה זה כדי שתבינו מה זה הכי הזה למה הוא משמש בריאקט ומה יקרה אם הוא לא יופיע",
+      "corrected": "קודם כל עזבו שהוא גם פה עשה טעות אני עוד רגע אסביר מה הטעות שהוא עשה פה הלו הוא השתמש ב UUID של הלוגין סינגל יוזר אז זה סבבה הוא לא עשה טעות סליחה הוא עשה את זה הסיבה שאני אסלשתי את זה זה כדי שתבינו מה זה הכי הזה למה הוא משמש ב־React ומה יקרה אם הוא לא יופיע",
+      "changes": [
+        {
+          "before": "בריאקט",
+          "after": "ב־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:08:06,040 --> 01:08:08,360",
+      "original": "ריאקט לוקח את הכי הזה",
+      "corrected": "React לוקח את הכי הזה",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:08:10,480 --> 01:08:12,360",
+      "original": "ואומר רגע רגע מי זה? זה אותה קומפוננטה?",
+      "corrected": "ואומר רגע רגע מי זה? זה אותה component?",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:08:33,660 --> 01:08:34,620",
+      "original": "אתם יכולים לקבל את הקומפוננטה",
+      "corrected": "אתם יכולים לקבל את ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:08:34,620 --> 01:08:37,700",
+      "original": "בפרופס הוא מקבל כין",
+      "corrected": "ב־props הוא מקבל כין",
+      "changes": [
+        {
+          "before": "בפרופס",
+          "after": "ב־props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:08:40,320 --> 01:08:41,920",
+      "original": "בו באמת זה ריאקט מאחורי",
+      "corrected": "בו באמת זה React מאחורי",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:08:43,900 --> 01:08:45,680",
+      "original": "המנגנון של ריאקט",
+      "corrected": "המנגנון של React",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:08:45,680 --> 01:08:48,260",
+      "original": "המנגנון של ריאקט עכשיו אתה לא צריך",
+      "corrected": "המנגנון של React עכשיו אתה לא צריך",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:09:18,460 --> 01:09:24,190",
+      "original": "זה הנדלר",
+      "corrected": "זה handler",
+      "changes": [
+        {
+          "before": "הנדלר",
+          "after": "handler",
+          "term": "handler"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:09:39,090 --> 01:09:54,690",
+      "original": "אין פה כאילו כמה קומפוננטות שאני מרנדר אותם ביחד תחת אותו מפ או משהו כי אחרת הוא יצריק עליי פה אני לא צריך להגיד לשים לזה ולזה הם פשוט שתי קומפוננטות שונות אבל אם אני במפ רץ עליהם אז אני צריך שהוא ידע מי זה מי זה הכוונה.",
+      "corrected": "אין פה כאילו כמה components שאני מרנדר אותם ביחד תחת אותו מפ או משהו כי אחרת הוא יצריק עליי פה אני לא צריך להגיד לשים לזה ולזה הם פשוט שתי components שונות אבל אם אני במפ רץ עליהם אז אני צריך שהוא ידע מי זה מי זה הכוונה.",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        },
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:10:13,460 --> 01:10:16,340",
+      "original": "הרימוב יוזר בעצם אפיל הנדלר",
+      "corrected": "הרימוב יוזר בעצם אפיל handler",
+      "changes": [
+        {
+          "before": "הנדלר",
+          "after": "handler",
+          "term": "handler"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:10:16,340 --> 01:10:18,040",
+      "original": "שמשנה את הסטייט",
+      "corrected": "שמשנה את ה־state",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:10:18,040 --> 01:10:20,160",
+      "original": "מפלטר את הסטייט להיות",
+      "corrected": "מפלטר את ה־state להיות",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:10:30,580 --> 01:10:33,660",
+      "original": "שאתה מרנדר לפה לתוך הקומפוננט הקארד",
+      "corrected": "שאתה מרנדר לפה לתוך ה־component הקארד",
+      "changes": [
+        {
+          "before": "הקומפוננט",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:10:59,500 --> 01:11:01,080",
+      "original": "זה העדכון של הקומפוננטה",
+      "corrected": "זה העדכון של ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:11:21,780 --> 01:11:23,440",
+      "original": "מתי שיש לך קומפוננטות קבועות",
+      "corrected": "מתי שיש לך components קבועות",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:11:29,180 --> 01:11:30,780",
+      "original": "מרנדר הרבה קומפוננטות",
+      "corrected": "מרנדר הרבה components",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:12:23,800 --> 01:12:25,500",
+      "original": "לקומפוננטה עצמו, לא בפנים",
+      "corrected": "ל־component עצמו, לא בפנים",
+      "changes": [
+        {
+          "before": "לקומפוננטה",
+          "after": "ל־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:12:35,540 --> 01:12:37,200",
+      "original": "הסטייט שלהם",
+      "corrected": "ה־state שלהם",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:12:37,200 --> 01:12:44,000",
+      "original": "אתה רואה את הקומפוננטה זה user card זה כל אחד מהcard רגע לא עוד רגע div",
+      "corrected": "אתה רואה את ה־component זה user card זה כל אחד מהcard רגע לא עוד רגע div",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:12:55,000 --> 01:12:59,800",
+      "original": "יכול להסתכל על זה ברמת קומפוננטות הנה אתה רואה איך זה נראה בקומפוננטות",
+      "corrected": "יכול להסתכל על זה ברמת components הנה אתה רואה איך זה נראה ב־components",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        },
+        {
+          "before": "בקומפוננטות",
+          "after": "ב־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:12:59,800 --> 01:13:03,600",
+      "original": "כן extension של הקומפוננטות",
+      "corrected": "כן extension של ה־components",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:16:09,210 --> 01:16:11,910",
+      "original": "כל אחד מהם מרנדר את הקומפוננטות ברמת העיקרון",
+      "corrected": "כל אחד מהם מרנדר את ה־components ברמת העיקרון",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:16:11,910 --> 01:16:15,690",
+      "original": "זה מרנדר את הקומפוננטות",
+      "corrected": "זה מרנדר את ה־components",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:16:17,830 --> 01:16:19,890",
+      "original": "גם רינדרת את הקומפוננטה",
+      "corrected": "גם רינדרת את ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:16:39,590 --> 01:16:41,810",
+      "original": "עכשיו הוא לא מרנדר את הקומפוננטה",
+      "corrected": "עכשיו הוא לא מרנדר את ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:16:43,630 --> 01:16:45,770",
+      "original": "שינוי סטייט בבן בנכד",
+      "corrected": "שינוי state בבן בנכד",
+      "changes": [
+        {
+          "before": "סטייט",
+          "after": "state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:17:09,430 --> 01:17:11,010",
+      "original": "ארכיטקטורה של קומפוננטות",
+      "corrected": "ארכיטקטורה של components",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:17:14,950 --> 01:17:18,870",
+      "original": "זה פשוט כאילו זה וישן של קומפוננטות זה כאילו אתה יודע זה כזה.",
+      "corrected": "זה פשוט כאילו זה וישן של components זה כאילו אתה יודע זה כזה.",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:18:00,640 --> 01:18:09,380",
+      "original": "אז גל, כל הפעולות של remove user, hiding for, showing for, כל אלה הן מרנדרות הקומפוננטה?",
+      "corrected": "אז גל, כל הפעולות של remove user, hiding for, showing for, כל אלה הן מרנדרות ה־component?",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:18:40,740 --> 01:18:42,700",
+      "original": "הקומפוננטות שיש לנו פה",
+      "corrected": "ה־components שיש לנו פה",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:19:08,960 --> 01:19:09,840",
+      "original": "לקומפוננטות",
+      "corrected": "ל־components",
+      "changes": [
+        {
+          "before": "לקומפוננטות",
+          "after": "ל־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:53:57,770 --> 01:54:01,070",
+      "original": "ספליט איץ ראוט פומפוננט",
+      "corrected": "ספליט איץ Route פומפוננט",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:54:04,330 --> 01:54:05,610",
+      "original": "בוא נקרא לזה דמי ראוט",
+      "corrected": "בוא נקרא לזה דמי Route",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:54:52,640 --> 01:54:55,980",
+      "original": "יש פה אינסטוליישן, ראוטינג, ראוטינג מודול",
+      "corrected": "יש פה אינסטוליישן, routing, routing מודול",
+      "changes": [
+        {
+          "before": "ראוטינג",
+          "after": "routing",
+          "term": "routing"
+        },
+        {
+          "before": "ראוטינג",
+          "after": "routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:54:58,260 --> 01:54:59,680",
+      "original": "כל אחד כזה, זה ראוט",
+      "corrected": "כל אחד כזה, זה Route",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:55:40,250 --> 01:55:41,850",
+      "original": "קומפוננטות לספרייה הזאת",
+      "corrected": "components לספרייה הזאת",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:57:22,800 --> 01:57:24,560",
+      "original": "רוצים לממש מנגנון ראוטינג",
+      "corrected": "רוצים לממש מנגנון routing",
+      "changes": [
+        {
+          "before": "ראוטינג",
+          "after": "routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:57:32,760 --> 01:57:34,520",
+      "original": "בראוט, זאת אומרת, אנחנו נראה",
+      "corrected": "ב־Route, זאת אומרת, אנחנו נראה",
+      "changes": [
+        {
+          "before": "בראוט",
+          "after": "ב־Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:57:34,520 --> 01:57:36,240",
+      "original": "כמה קל לייצר ראוט, נבין מה זה",
+      "corrected": "כמה קל לייצר Route, נבין מה זה",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:57:41,060 --> 01:57:42,300",
+      "original": "הגנה על ראוט",
+      "corrected": "הגנה על Route",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:58:25,760 --> 01:58:27,720",
+      "original": "בראוזר האוטר, שזה הקומפוננטה הראשית,",
+      "corrected": "BrowserRouter, שזה ה־component הראשית,",
+      "changes": [
+        {
+          "before": "בראוזר האוטר",
+          "after": "BrowserRouter",
+          "term": "BrowserRouter"
+        },
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:58:28,320 --> 01:58:31,740",
+      "original": "שזה הקומפוננטה שבעצם מחברת את האפליקציה שלנו,",
+      "corrected": "שזה ה־component שבעצם מחברת את האפליקציה שלנו,",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:58:35,420 --> 01:58:38,020",
+      "original": "חברת את react לראוטינג",
+      "corrected": "חברת את react ל־routing",
+      "changes": [
+        {
+          "before": "לראוטינג",
+          "after": "ל־routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:58:38,020 --> 01:58:39,540",
+      "original": "מה זה לראוטינג? לבראוזר",
+      "corrected": "מה זה ל־routing? לבראוזר",
+      "changes": [
+        {
+          "before": "לראוטינג",
+          "after": "ל־routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:58:39,540 --> 01:58:40,760",
+      "original": "הראוטר שלנו",
+      "corrected": "ה־router שלנו",
+      "changes": [
+        {
+          "before": "הראוטר",
+          "after": "ה־router",
+          "term": "router"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:58:59,320 --> 01:59:01,160",
+      "original": "בין הראוטינג",
+      "corrected": "בין ה־routing",
+      "changes": [
+        {
+          "before": "הראוטינג",
+          "after": "ה־routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:59:01,160 --> 01:59:38,340",
+      "original": "מקניזם של המסלולת בין לכל מה שקשור לשורת כתובת לתוך האפליקציה לנסות את זה בתוך האפליקציה שלהם עכשיו טוב זה כבר בוא נוריד את זה אני אמחר גם את זה אוי סליחה אופיישיאל דוקומנטיישן אוקיי ריאקט ראוטר אפשר לראות דוקס כן ולמעשה המודים יש כל מיני מודים",
+      "corrected": "מקניזם של המסלולת בין לכל מה שקשור לשורת כתובת לתוך האפליקציה לנסות את זה בתוך האפליקציה שלהם עכשיו טוב זה כבר בוא נוריד את זה אני אמחר גם את זה אוי סליחה אופיישיאל דוקומנטיישן אוקיי React router אפשר לראות דוקס כן ולמעשה המודים יש כל מיני מודים",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        },
+        {
+          "before": "ראוטר",
+          "after": "router",
+          "term": "router"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:59:40,440 --> 01:59:43,300",
+      "original": "ואז איך אנחנו מגדירים את הראוטינג",
+      "corrected": "ואז איך אנחנו מגדירים את ה־routing",
+      "changes": [
+        {
+          "before": "הראוטינג",
+          "after": "ה־routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:59:44,420 --> 01:59:46,600",
+      "original": "קומפוננטות של ראוטס",
+      "corrected": "components של Routes",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        },
+        {
+          "before": "ראוטס",
+          "after": "Routes",
+          "term": "Routes"
+        }
+      ]
+    },
+    {
+      "timestamp": "01:59:46,600 --> 01:59:49,300",
+      "original": "מעטפת שכל ראוט בעצם אומר",
+      "corrected": "מעטפת שכל Route בעצם אומר",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:00:01,160 --> 02:00:06,440",
+      "original": "איזה קומפוננטה אני רנדר? בסדר?",
+      "corrected": "איזה component אני רנדר? בסדר?",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:00:06,440 --> 02:00:08,620",
+      "original": "זה מה שאומר קומפוננטת ראוט",
+      "corrected": "זה מה שאומר קומפוננטת Route",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:00:58,650 --> 02:01:10,270",
+      "original": "אני אומר מה זה קומפוננטת ראוט ככה היא מוגדרת כל ראוט מגדיר בעצם איזה אלמנט אני מרנדר כאשר אני מגיע",
+      "corrected": "אני אומר מה זה קומפוננטת Route ככה היא מוגדרת כל Route מגדיר בעצם איזה אלמנט אני מרנדר כאשר אני מגיע",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        },
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:01:23,130 --> 02:01:25,210",
+      "original": "שתי קומפוננטות מה זה login ורגיסטר?",
+      "corrected": "שתי components מה זה login ורגיסטר?",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:01:31,010 --> 02:01:33,070",
+      "original": "זה קומפוננטה שכל מה שהיא תעשה",
+      "corrected": "זה component שכל מה שהיא תעשה",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:01:42,010 --> 02:01:44,250",
+      "original": "איזה משהו משותף לשני הקומפוננטות",
+      "corrected": "איזה משהו משותף לשני ה־components",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:02:17,770 --> 02:02:20,310",
+      "original": "סתם דוגמה זה קומפוננטה",
+      "corrected": "סתם דוגמה זה component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:02:44,390 --> 02:02:46,830",
+      "original": "דשבורד, אינדקס, דפולט ראוט",
+      "corrected": "דשבורד, אינדקס, דפולט Route",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:01,970 --> 02:03:04,250",
+      "original": "יש ראוט כזה? אין כזה",
+      "corrected": "יש Route כזה? אין כזה",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:04,250 --> 02:03:07,010",
+      "original": "לאן ללכת? אולי לדיפולט ראוט",
+      "corrected": "לאן ללכת? אולי לדיפולט Route",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:15,530 --> 02:03:22,500",
+      "original": "טוב זה קומפוננטה ואיך אנחנו",
+      "corrected": "טוב זה component ואיך אנחנו",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:38,400 --> 02:03:40,200",
+      "original": "מסוימים שקיימים בריאקט ראוטר דום",
+      "corrected": "מסוימים שקיימים ב־react-router-dom",
+      "changes": [
+        {
+          "before": "בריאקט ראוטר דום",
+          "after": "ב־react-router-dom",
+          "term": "react-router-dom"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:40,200 --> 02:03:42,340",
+      "original": "לריאקט ראוטר",
+      "corrected": "ל־React router",
+      "changes": [
+        {
+          "before": "לריאקט",
+          "after": "ל־React",
+          "term": "React"
+        },
+        {
+          "before": "ראוטר",
+          "after": "router",
+          "term": "router"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:44,020 --> 02:03:45,820",
+      "original": "קומפוננטות משלו",
+      "corrected": "components משלו",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:45,820 --> 02:03:48,460",
+      "original": "הוא מביא לי קומפוננטה הוא אומר לי זה עושה את זה",
+      "corrected": "הוא מביא לי component הוא אומר לי זה עושה את זה",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:48,460 --> 02:03:50,040",
+      "original": "ראוט זה ראוט",
+      "corrected": "Route זה Route",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        },
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:50,040 --> 02:03:52,740",
+      "original": "פראוזר ראוטר מקשר לך את זה עם הדפטפן",
+      "corrected": "BrowserRouter מקשר לך את זה עם הדפטפן",
+      "changes": [
+        {
+          "before": "פראוזר ראוטר",
+          "after": "BrowserRouter",
+          "term": "BrowserRouter"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:52,740 --> 02:03:55,280",
+      "original": "ראוט עוטף את כל הראוטים",
+      "corrected": "Route עוטף את כל ה־routes",
+      "changes": [
+        {
+          "before": "הראוטים",
+          "after": "ה־routes",
+          "term": "routes"
+        },
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:55,280 --> 02:03:56,200",
+      "original": "ראוט אחד",
+      "corrected": "Route אחד",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:03:56,200 --> 02:03:59,540",
+      "original": "מפנה לראוט ספציפי",
+      "corrected": "מפנה ל־Route ספציפי",
+      "changes": [
+        {
+          "before": "לראוט",
+          "after": "ל־Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:04:01,360 --> 02:04:02,920",
+      "original": "יוז לוקיישן זה הוק",
+      "corrected": "useLocation זה hook",
+      "changes": [
+        {
+          "before": "יוז לוקיישן",
+          "after": "useLocation",
+          "term": "useLocation"
+        },
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:04:05,300 --> 02:04:06,900",
+      "original": "יוז נביגייט יודע לעשות",
+      "corrected": "useNavigate יודע לעשות",
+      "changes": [
+        {
+          "before": "יוז נביגייט",
+          "after": "useNavigate",
+          "term": "useNavigate"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:04:13,980 --> 02:04:16,280",
+      "original": "לנבט? ליצור ראוט?",
+      "corrected": "לנבט? ליצור Route?",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:04:50,320 --> 02:04:52,880",
+      "original": "הנה הקומפוננטה שאומרת",
+      "corrected": "הנה ה־component שאומרת",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:04:55,160 --> 02:04:57,200",
+      "original": "לאן הקומפוננטה הזאת מנבטת",
+      "corrected": "לאן ה־component הזאת מנבטת",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:06:23,390 --> 02:06:59,020",
+      "original": "איפה אתה באת חבר שנייה אחת חייב להגיד שאני לא מכיר את זה זה ממטריאל דיזיין סבבה הכל טוב זה מהחבילת ui פחות מעניין מה שבא מהחבילת ui מהחבילת ui והנה האפ שלי אוקיי ראוטר פרוביידר פה משתמש בראוטר פרוביידר אוקיי זה איזושהי קומפוננטה אוקיי שיודעת נהגה אני רואה שהוא גם משתמש בקריאט ראוטר זה פה הראוטר שלי הנה אוקיי שוטלת את הראוטר בפנים",
+      "corrected": "איפה אתה באת חבר שנייה אחת חייב להגיד שאני לא מכיר את זה זה ממטריאל דיזיין סבבה הכל טוב זה מהחבילת ui פחות מעניין מה שבא מהחבילת ui מהחבילת ui והנה האפ שלי אוקיי RouterProvider פה משתמש ב־RouterProvider אוקיי זה איזושהי component אוקיי שיודעת נהגה אני רואה שהוא גם משתמש בקריאט router זה פה ה־router שלי הנה אוקיי שוטלת את ה־router בפנים",
+      "changes": [
+        {
+          "before": "ראוטר פרוביידר",
+          "after": "RouterProvider",
+          "term": "RouterProvider"
+        },
+        {
+          "before": "בראוטר פרוביידר",
+          "after": "ב־RouterProvider",
+          "term": "RouterProvider"
+        },
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        },
+        {
+          "before": "ראוטר",
+          "after": "router",
+          "term": "router"
+        },
+        {
+          "before": "הראוטר",
+          "after": "ה־router",
+          "term": "router"
+        },
+        {
+          "before": "הראוטר",
+          "after": "ה־router",
+          "term": "router"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:07:42,940 --> 02:07:45,860",
+      "original": "קומפוננט ראפר",
+      "corrected": "component ראפר",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:08:13,820 --> 02:08:15,580",
+      "original": "כי הראוטים ישנם",
+      "corrected": "כי ה־routes ישנם",
+      "changes": [
+        {
+          "before": "הראוטים",
+          "after": "ה־routes",
+          "term": "routes"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:08:29,280 --> 02:08:31,620",
+      "original": "בדרך של פרוביידר, וכאילו הדרך של הפרוביידר",
+      "corrected": "בדרך של Provider, וכאילו הדרך של ה־Provider",
+      "changes": [
+        {
+          "before": "פרוביידר",
+          "after": "Provider",
+          "term": "Provider"
+        },
+        {
+          "before": "הפרוביידר",
+          "after": "ה־Provider",
+          "term": "Provider"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:08:37,080 --> 02:08:52,080",
+      "original": "אתם רואים קומפוננטות אני יותר אוהב את זה זה עניין של גישה ואיך אתם אוהבים לראות את הדברים ולעבוד איתם בסדר אז לא לדאוג בגלל זה שטויות מה שתחליטו זה טוב אין פה משהו כן יפה עכשיו זה",
+      "corrected": "אתם רואים components אני יותר אוהב את זה זה עניין של גישה ואיך אתם אוהבים לראות את הדברים ולעבוד איתם בסדר אז לא לדאוג בגלל זה שטויות מה שתחליטו זה טוב אין פה משהו כן יפה עכשיו זה",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:09:32,910 --> 02:09:35,930",
+      "original": "שממש ראוטינג מקניזם",
+      "corrected": "שממש routing מקניזם",
+      "changes": [
+        {
+          "before": "ראוטינג",
+          "after": "routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:09:35,930 --> 02:09:38,450",
+      "original": "מבוסס על ריאגט ראוטר דונגו",
+      "corrected": "מבוסס על ריאגט router דונגו",
+      "changes": [
+        {
+          "before": "ראוטר",
+          "after": "router",
+          "term": "router"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:11:50,320 --> 02:11:52,420",
+      "original": "אז יהיה פה קומפוננטה",
+      "corrected": "אז יהיה פה component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:11:52,420 --> 02:11:54,240",
+      "original": "אבל אני לא רוצה את הקומפוננטה",
+      "corrected": "אבל אני לא רוצה את ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:11:54,240 --> 02:11:56,480",
+      "original": "אחרי יחידה הזאת, אני רוצה לשים ראוט",
+      "corrected": "אחרי יחידה הזאת, אני רוצה לשים Route",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:11:56,480 --> 02:11:59,080",
+      "original": "מקניזם, ראוטר",
+      "corrected": "מקניזם, router",
+      "changes": [
+        {
+          "before": "ראוטר",
+          "after": "router",
+          "term": "router"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:12:00,360 --> 02:12:02,400",
+      "original": "תשמע, תתלבש על הראוט",
+      "corrected": "תשמע, תתלבש על ה־Route",
+      "changes": [
+        {
+          "before": "הראוט",
+          "after": "ה־Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:12:03,780 --> 02:12:07,340",
+      "original": "שים את הראוט הרלוונטי",
+      "corrected": "שים את ה־Route הרלוונטי",
+      "changes": [
+        {
+          "before": "הראוט",
+          "after": "ה־Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:13:45,760 --> 02:13:55,120",
+      "original": "זה בדיוק כמו הדרוויר שעוד רגע אנחנו נראה אותו הלפט סיידבר הזה כן אוקיי עכשיו אז אני לא שם פה בדרך כלל בדרך כלל אני לא אשים פה קומפוננטה",
+      "corrected": "זה בדיוק כמו הדרוויר שעוד רגע אנחנו נראה אותו הלפט סיידבר הזה כן אוקיי עכשיו אז אני לא שם פה בדרך כלל בדרך כלל אני לא אשים פה component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:13:55,120 --> 02:14:09,050",
+      "original": "אני רוצה שזה משהו שיוצג כזה כן שם זה משהו שיוצג בסדר אז מה יש לנו כאן בראוזר ראוטר הקומפוננטה שאם אני רוצה לכתוב משהו",
+      "corrected": "אני רוצה שזה משהו שיוצג כזה כן שם זה משהו שיוצג בסדר אז מה יש לנו כאן BrowserRouter ה־component שאם אני רוצה לכתוב משהו",
+      "changes": [
+        {
+          "before": "בראוזר ראוטר",
+          "after": "BrowserRouter",
+          "term": "BrowserRouter"
+        },
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:14:14,010 --> 02:14:16,750",
+      "original": "אז אני שם את הבראוץ ראוטר",
+      "corrected": "אז אני שם את הבראוץ router",
+      "changes": [
+        {
+          "before": "ראוטר",
+          "after": "router",
+          "term": "router"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:14:24,770 --> 02:14:27,650",
+      "original": "יעבוד עם כל ההוקים, עם כל הקומפוננטות",
+      "corrected": "יעבוד עם כל ה־hooks, עם כל ה־components",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        },
+        {
+          "before": "ההוקים",
+          "after": "ה־hooks",
+          "term": "hooks"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:14:29,330 --> 02:14:32,370",
+      "original": "מתחת פנימה יש לי את הראוץ קומפוננט",
+      "corrected": "מתחת פנימה יש לי את הראוץ component",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:14:34,270 --> 02:14:35,330",
+      "original": "לכל הראוטינג שלי",
+      "corrected": "לכל ה־routing שלי",
+      "changes": [
+        {
+          "before": "הראוטינג",
+          "after": "ה־routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:14:35,330 --> 02:14:36,870",
+      "original": "וכל אחד מהראוט",
+      "corrected": "וכל אחד מה־Route",
+      "changes": [
+        {
+          "before": "מהראוט",
+          "after": "מה־Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:16:10,420 --> 02:16:41,320",
+      "original": "הוא צודק כי אין לי כזה באמת בוא נסיף זה ברשותכם הופה הנה זה מראה את האוט הוא לא מראה את הלוגין אני יכול להבין למה כי זה לא קומפוננטה בתחת בתוך השנייה זאת אומרת על פניו יש את ההומפייג שזה כאילו יש את האפ של ובתוכו יש עוד ראות עוד רגע נראה אני אראה איזה כאילו איך זה נראה הם לא באמת אחד בתוך השני פה זה כאילו סתם אני יכול להגיד כאילו הייתי יכול לעשות משהו כזה אולי אני מאמין ואז הוא יראה את הלוגין",
+      "corrected": "הוא צודק כי אין לי כזה באמת בוא נסיף זה ברשותכם הופה הנה זה מראה את האוט הוא לא מראה את הלוגין אני יכול להבין למה כי זה לא component בתחת בתוך השנייה זאת אומרת על פניו יש את ההומפייג שזה כאילו יש את האפ של ובתוכו יש עוד ראות עוד רגע נראה אני אראה איזה כאילו איך זה נראה הם לא באמת אחד בתוך השני פה זה כאילו סתם אני יכול להגיד כאילו הייתי יכול לעשות משהו כזה אולי אני מאמין ואז הוא יראה את הלוגין",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:16:41,320 --> 02:16:43,800",
+      "original": "אתם רואים, אהבתי את הקומפוננט הלמעלה ואז הוא מראה את הפנימי,",
+      "corrected": "אתם רואים, אהבתי את ה־component הלמעלה ואז הוא מראה את הפנימי,",
+      "changes": [
+        {
+          "before": "הקומפוננט",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:16:53,200 --> 02:16:57,620",
+      "original": "אני יכול להגדיר עוד ראוטים, Simulink, Rout, Nested, מה שבא לי,",
+      "corrected": "אני יכול להגדיר עוד routes, Simulink, Rout, Nested, מה שבא לי,",
+      "changes": [
+        {
+          "before": "ראוטים",
+          "after": "routes",
+          "term": "routes"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:16:57,680 --> 02:17:02,180",
+      "original": "אני יכול ליצור היררכיה שלמה של ראוט מקניזם אצלי באפליקציה,",
+      "corrected": "אני יכול ליצור היררכיה שלמה של Route מקניזם אצלי באפליקציה,",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:17:04,960 --> 02:17:07,020",
+      "original": "אז יש לנו ראוט עליון שהוא האפשל,",
+      "corrected": "אז יש לנו Route עליון שהוא האפשל,",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:17:26,620 --> 02:17:27,900",
+      "original": "ה-outlet זה קומפוננט אגם של",
+      "corrected": "ה-outlet זה component אגם של",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:17:35,940 --> 02:17:38,200",
+      "original": "את כל הקומפוננטות שנמצאים",
+      "corrected": "את כל ה־components שנמצאים",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:17:38,200 --> 02:17:40,000",
+      "original": "בתוך הקומפוננט הזאת",
+      "corrected": "בתוך ה־component הזאת",
+      "changes": [
+        {
+          "before": "הקומפוננט",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:17:40,000 --> 02:17:41,540",
+      "original": "מי זה הקומפוננט הזאת? האפשל",
+      "corrected": "מי זה ה־component הזאת? האפשל",
+      "changes": [
+        {
+          "before": "הקומפוננט",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:19:55,660 --> 02:19:57,500",
+      "original": "זה התוכן של הקומפוננטות",
+      "corrected": "זה התוכן של ה־components",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:20:02,320 --> 02:20:03,260",
+      "original": "כל עמוד זה קומפוננטה",
+      "corrected": "כל עמוד זה component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:20:33,150 --> 02:20:35,990",
+      "original": "קומפוננטה של nav link אז זה כל זה",
+      "corrected": "component של nav link אז זה כל זה",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:22:59,470 --> 02:23:00,830",
+      "original": "שמים משהו, קומפוננטה אחרת,",
+      "corrected": "שמים משהו, component אחרת,",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:23:08,030 --> 02:23:09,230",
+      "original": "זו ההגדרה של הראוטים,",
+      "corrected": "זו ההגדרה של ה־routes,",
+      "changes": [
+        {
+          "before": "הראוטים",
+          "after": "ה־routes",
+          "term": "routes"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:23:11,650 --> 02:23:12,710",
+      "original": "היא רואה את הראוטים,",
+      "corrected": "היא רואה את ה־routes,",
+      "changes": [
+        {
+          "before": "הראוטים",
+          "after": "ה־routes",
+          "term": "routes"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:23:24,050 --> 02:23:26,230",
+      "original": "זה הקומפוננט שאתה רואה למעשה",
+      "corrected": "זה ה־component שאתה רואה למעשה",
+      "changes": [
+        {
+          "before": "הקומפוננט",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:24:03,430 --> 02:24:25,090",
+      "original": "זה קומפוננטה קומפוננטה של מטריאל יואי דיזיין שמתארת כמו דיו כזה כמו דיו כזה כמו אז הדרואו הרי אתה רואה הוא מחזיק בתוכו נביגיישן לייסט אגב אם אני מעלים את הדבר הזה לא תראה את כל הדשבורד את כל הרשימה הזאתי רגע שנייה.",
+      "corrected": "זה component component של מטריאל יואי דיזיין שמתארת כמו דיו כזה כמו דיו כזה כמו אז הדרואו הרי אתה רואה הוא מחזיק בתוכו נביגיישן לייסט אגב אם אני מעלים את הדבר הזה לא תראה את כל הדשבורד את כל הרשימה הזאתי רגע שנייה.",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        },
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:26:00,810 --> 02:26:02,610",
+      "original": "ראוטר, ראוטס, ראוט",
+      "corrected": "router, Routes, Route",
+      "changes": [
+        {
+          "before": "ראוטס",
+          "after": "Routes",
+          "term": "Routes"
+        },
+        {
+          "before": "ראוטר",
+          "after": "router",
+          "term": "router"
+        },
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:26:06,670 --> 02:26:08,890",
+      "original": "הוקים שנכיר בהמשך, אבל זה כרגע",
+      "corrected": "hooks שנכיר בהמשך, אבל זה כרגע",
+      "changes": [
+        {
+          "before": "הוקים",
+          "after": "hooks",
+          "term": "hooks"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:26:16,790 --> 02:26:18,830",
+      "original": "לראוטינג עושים איתך טעם אחת",
+      "corrected": "ל־routing עושים איתך טעם אחת",
+      "changes": [
+        {
+          "before": "לראוטינג",
+          "after": "ל־routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:27:06,870 --> 02:27:08,670",
+      "original": "בקלות, שינינו את הקומפוננטה",
+      "corrected": "בקלות, שינינו את ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:27:08,670 --> 02:27:10,050",
+      "original": "את התוכן של הקומפוננטה",
+      "corrected": "את התוכן של ה־component",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:27:28,730 --> 02:27:30,590",
+      "original": "פשוט יותר קל לי לצרוך את הקומפוננטות",
+      "corrected": "פשוט יותר קל לי לצרוך את ה־components",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:27:32,630 --> 02:27:34,410",
+      "original": "לפה get started רואים את הקומפוננטות",
+      "corrected": "לפה get started רואים את ה־components",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:27:36,630 --> 02:27:38,710",
+      "original": "יש איזה קומפוננטות יש להם",
+      "corrected": "יש איזה components יש להם",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:28:43,690 --> 02:28:47,450",
+      "original": "זה ראוט חדש",
+      "corrected": "זה Route חדש",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:28:47,450 --> 02:28:50,170",
+      "original": "כמובן שלא תצאו את הראוט",
+      "corrected": "כמובן שלא תצאו את ה־Route",
+      "changes": [
+        {
+          "before": "הראוט",
+          "after": "ה־Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:28:51,270 --> 02:28:53,590",
+      "original": "ראוט חדש, users, route",
+      "corrected": "Route חדש, users, route",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "02:28:54,590 --> 02:28:57,650",
+      "original": "קומפוננטה חדשה, ראוט חדש",
+      "corrected": "component חדשה, Route חדש",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        },
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:11:45,280 --> 03:11:46,760",
+      "original": "זה פר קומפוננט",
+      "corrected": "זה פר component",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:11:51,500 --> 03:11:54,440",
+      "original": "זאת אומרת אין איזשהו קשר בין הקומפוננטות שלי",
+      "corrected": "זאת אומרת אין איזשהו קשר בין ה־components שלי",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:12:57,040 --> 03:12:59,920",
+      "original": "של ריאקט זה יש לנו",
+      "corrected": "של React זה יש לנו",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:12:59,920 --> 03:13:02,500",
+      "original": "קומפוננטות אנחנו יודעים לעשות ראוטינג",
+      "corrected": "components אנחנו יודעים לעשות routing",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        },
+        {
+          "before": "ראוטינג",
+          "after": "routing",
+          "term": "routing"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:13:02,500 --> 03:13:04,280",
+      "original": "כל קומפוננט המציגת המידע שלה כל טוב",
+      "corrected": "כל component המציגת המידע שלה כל טוב",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:13:06,040 --> 03:13:07,700",
+      "original": "איזשהו ראוט נוסף",
+      "corrected": "איזשהו Route נוסף",
+      "changes": [
+        {
+          "before": "ראוט",
+          "after": "Route",
+          "term": "Route"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:13:43,790 --> 03:13:56,550",
+      "original": "אני רוצה לדבר על היכולת לחלוק מידע בין עמודים, בין קומפוננטות, בין עמודים, cross the board,",
+      "corrected": "אני רוצה לדבר על היכולת לחלוק מידע בין עמודים, בין components, בין עמודים, cross the board,",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:16:08,040 --> 03:16:33,220",
+      "original": "אז איך אנחנו הולכים בוא נבין איך אנחנו הולכים לעשות את זה ובאיזה טכנולוגיה מבחינת בריאקט איזה פיצ'ר אני הולך להשתמש אוקיי אז בריאקט היכולת שלנו להעביר מידע בין קומפוננטות בין שתי קומפוננטות שנמצאות אי שם למטה בדרך אני רוצה להעביר זה קומפוננטה אי יש לי את קומפוננטה בי כן",
+      "corrected": "אז איך אנחנו הולכים בוא נבין איך אנחנו הולכים לעשות את זה ובאיזה טכנולוגיה מבחינת ב־React איזה פיצ'ר אני הולך להשתמש אוקיי אז ב־React היכולת שלנו להעביר מידע בין components בין שתי components שנמצאות אי שם למטה בדרך אני רוצה להעביר זה component אי יש לי את component בי כן",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        },
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        },
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        },
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        },
+        {
+          "before": "בריאקט",
+          "after": "ב־React",
+          "term": "React"
+        },
+        {
+          "before": "בריאקט",
+          "after": "ב־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:17:05,840 --> 03:17:08,220",
+      "original": "יש לי בדרך חסרה קומפוננטות",
+      "corrected": "יש לי בדרך חסרה components",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:17:08,220 --> 03:17:10,320",
+      "original": "מה קורה ששני הקומפוננטות האלה",
+      "corrected": "מה קורה ששני ה־components האלה",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:17:13,080 --> 03:17:14,720",
+      "original": "מה קורה ששני הקומפוננטות האלה",
+      "corrected": "מה קורה ששני ה־components האלה",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:17:26,340 --> 03:17:27,740",
+      "original": "קונטקסט אוקיי",
+      "corrected": "context אוקיי",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:17:32,480 --> 03:17:34,180",
+      "original": "תחת איזשהו קונטקס ועל ידי הוק",
+      "corrected": "תחת איזשהו קונטקס ועל ידי hook",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:17:42,220 --> 03:17:44,520",
+      "original": "והקומפוננטות הרלוונטיות יתרנדרו",
+      "corrected": "וה־components הרלוונטיות יתרנדרו",
+      "changes": [
+        {
+          "before": "והקומפוננטות",
+          "after": "וה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:17:46,060 --> 03:17:48,060",
+      "original": "הסטייט שלי גלובלית",
+      "corrected": "ה־state שלי גלובלית",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:17:48,060 --> 03:17:50,620",
+      "original": "לא לוקלי פר קומפוננטה",
+      "corrected": "לא לוקלי פר component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:18:20,700 --> 03:18:22,400",
+      "original": "כי זה פרק קומפוננטה, מסכים איתי?",
+      "corrected": "כי זה פרק component, מסכים איתי?",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:19:55,130 --> 03:19:58,550",
+      "original": "עכשיו מה אני מצפה שיהיה פה? יהיה פה שימוש בקונטקסט",
+      "corrected": "עכשיו מה אני מצפה שיהיה פה? יהיה פה שימוש ב־context",
+      "changes": [
+        {
+          "before": "בקונטקסט",
+          "after": "ב־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:19:59,450 --> 03:20:01,570",
+      "original": "כמובן שאפשרות הנהלת הסטייט בצורה גרבלית",
+      "corrected": "כמובן שאפשרות הנהלת ה־state בצורה גרבלית",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:20:05,930 --> 03:20:07,790",
+      "original": "כמו אטום, כמו רידאקס",
+      "corrected": "כמו אטום, כמו Redux",
+      "changes": [
+        {
+          "before": "רידאקס",
+          "after": "Redux",
+          "term": "Redux"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:20:16,000 --> 03:20:17,960",
+      "original": "ולהשפיע על קומפוננטה אחרת",
+      "corrected": "ולהשפיע על component אחרת",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:20:29,800 --> 03:20:34,580",
+      "original": "לא זה פשוט יהיה לך פרופס",
+      "corrected": "לא זה פשוט יהיה לך props",
+      "changes": [
+        {
+          "before": "פרופס",
+          "after": "props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:20:35,740 --> 03:20:38,500",
+      "original": "אתה תחלפל פרופס עד המוות",
+      "corrected": "אתה תחלפל props עד המוות",
+      "changes": [
+        {
+          "before": "פרופס",
+          "after": "props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:20:39,580 --> 03:20:41,700",
+      "original": "יש לך 20 קומפוננטות",
+      "corrected": "יש לך 20 components",
+      "changes": [
+        {
+          "before": "קומפוננטות",
+          "after": "components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:21:30,480 --> 03:22:01,280",
+      "original": "מה זה כן אז טוב הוא יצא פה אהוק עם קונטקסט אוקיי והוא יצר קונטקסט ממש דדיקייטד עבורו אוקיי אני רוצה שתתבינו מה קרה פה זה חשוב עכשיו נתחיל קרה פה איזה פלטה",
+      "corrected": "מה זה כן אז טוב הוא יצא פה אהוק עם context אוקיי והוא יצר context ממש דדיקייטד עבורו אוקיי אני רוצה שתתבינו מה קרה פה זה חשוב עכשיו נתחיל קרה פה איזה פלטה",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        },
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:23:42,140 --> 03:23:46,100",
+      "original": "סופורט קונטקסט",
+      "corrected": "סופורט context",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:23:52,880 --> 03:23:57,680",
+      "original": "קונטקסט פייל",
+      "corrected": "context פייל",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:24:01,680 --> 03:24:05,680",
+      "original": "והקונטקסט צריך להיות",
+      "corrected": "וה־context צריך להיות",
+      "changes": [
+        {
+          "before": "והקונטקסט",
+          "after": "וה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:24:50,180 --> 03:25:13,530",
+      "original": "כן הוא יבין את זה שאני רוצה לעשות קונטקסט כאילו כללי ולעטוף את זה כאילו הוא רץ על זה אני רואה את זה",
+      "corrected": "כן הוא יבין את זה שאני רוצה לעשות context כאילו כללי ולעטוף את זה כאילו הוא רץ על זה אני רואה את זה",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:25:13,530 --> 03:25:15,810",
+      "original": "הפרוביידר הוא קרא לזה",
+      "corrected": "ה־Provider הוא קרא לזה",
+      "changes": [
+        {
+          "before": "הפרוביידר",
+          "after": "ה־Provider",
+          "term": "Provider"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:25:37,130 --> 03:25:39,270",
+      "original": "אתם רואים הפרוביידר הפרוביידר זה בדיוק",
+      "corrected": "אתם רואים ה־Provider ה־Provider זה בדיוק",
+      "changes": [
+        {
+          "before": "הפרוביידר",
+          "after": "ה־Provider",
+          "term": "Provider"
+        },
+        {
+          "before": "הפרוביידר",
+          "after": "ה־Provider",
+          "term": "Provider"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:25:39,270 --> 03:25:41,050",
+      "original": "הקונטקסט הזה שאני מדבר עליו",
+      "corrected": "ה־context הזה שאני מדבר עליו",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:25:51,650 --> 03:25:54,570",
+      "original": "בתוך האפ פרוביידר, הנה זה מגיע",
+      "corrected": "בתוך האפ Provider, הנה זה מגיע",
+      "changes": [
+        {
+          "before": "פרוביידר",
+          "after": "Provider",
+          "term": "Provider"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:25:55,910 --> 03:25:59,250",
+      "original": "קונטקסט, קונטקסט בריאקט",
+      "corrected": "context, context ב־React",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        },
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        },
+        {
+          "before": "בריאקט",
+          "after": "ב־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:26:22,510 --> 03:26:24,070",
+      "original": "יצירה של קונטקסט",
+      "corrected": "יצירה של context",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:26:59,560 --> 03:27:07,460",
+      "original": "מדהים עכשיו פה משתמש בכי אופים ומזוכרים עבדנו עם זה בטייפ סקריפט שאמרנו כל אחד מהסטינגס מהיכוליות ואז לפי זה נעשה סטינגס.",
+      "corrected": "מדהים עכשיו פה משתמש בכי אופים ומזוכרים עבדנו עם זה ב־TypeScript שאמרנו כל אחד מהסטינגס מהיכוליות ואז לפי זה נעשה סטינגס.",
+      "changes": [
+        {
+          "before": "בטייפ סקריפט",
+          "after": "ב־TypeScript",
+          "term": "TypeScript"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:27:11,000 --> 03:27:12,120",
+      "original": "הקונטקסט מתחלק לשתיים,",
+      "corrected": "ה־context מתחלק לשתיים,",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:27:15,020 --> 03:27:16,020",
+      "original": "הפרוביידר עוטף את ה...",
+      "corrected": "ה־Provider עוטף את ה...",
+      "changes": [
+        {
+          "before": "הפרוביידר",
+          "after": "ה־Provider",
+          "term": "Provider"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:27:19,480 --> 03:27:21,000",
+      "original": "כי הקומפוננטה הזאתי,",
+      "corrected": "כי ה־component הזאתי,",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:27:21,000 --> 03:27:23,260",
+      "original": "הקומפוננטה הזאתי,",
+      "corrected": "ה־component הזאתי,",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:27:28,860 --> 03:27:34,760",
+      "original": "children זה כל הבנים שנמצאים בתוך הקומפוננטות,",
+      "corrected": "children זה כל הבנים שנמצאים בתוך ה־components,",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:27:51,040 --> 03:27:52,440",
+      "original": "כשאתה עוטף עם קומפוננטה",
+      "corrected": "כשאתה עוטף עם component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:27:52,440 --> 03:27:55,440",
+      "original": "קומפוננטה כלשהי אוטומטית היא מקבלת פרופ אוטומטי",
+      "corrected": "component כלשהי אוטומטית היא מקבלת פרופ אוטומטי",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:27:56,340 --> 03:27:59,460",
+      "original": "בסדר? זה אתה תכיר, אם אני רוצה להעביר קומפוננטה",
+      "corrected": "בסדר? זה אתה תכיר, אם אני רוצה להעביר component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:28:04,820 --> 03:28:07,240",
+      "original": "אני יכול להעביר קומפוננטה גם כ-prop אם אני רוצה",
+      "corrected": "אני יכול להעביר component גם כ-prop אם אני רוצה",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:28:07,240 --> 03:28:09,060",
+      "original": "שלוח בפרופרטי קומפוננטה",
+      "corrected": "שלוח בפרופרטי component",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:28:32,380 --> 03:28:34,520",
+      "original": "והוא מוזרק דרך הפרוביידר",
+      "corrected": "והוא מוזרק דרך ה־Provider",
+      "changes": [
+        {
+          "before": "הפרוביידר",
+          "after": "ה־Provider",
+          "term": "Provider"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:28:34,520 --> 03:28:36,760",
+      "original": "לאן? לכל קומפוננטה שאנחנו נרצה",
+      "corrected": "לאן? לכל component שאנחנו נרצה",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:00,510 --> 03:29:03,210",
+      "original": "user context זה הוק",
+      "corrected": "user context זה hook",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:03,210 --> 03:29:05,230",
+      "original": "ואומר, קח את הקונטקסט מתוך",
+      "corrected": "ואומר, קח את ה־context מתוך",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:05,230 --> 03:29:07,390",
+      "original": "האפ קונטקסט, ותעביר",
+      "corrected": "האפ context, ותעביר",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:08,890 --> 03:29:11,150",
+      "original": "נראה איך אנחנו משתמשים בקונטקסט הזה",
+      "corrected": "נראה איך אנחנו משתמשים ב־context הזה",
+      "changes": [
+        {
+          "before": "בקונטקסט",
+          "after": "ב־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:11,150 --> 03:29:13,370",
+      "original": "למטה, אין קונטקסט",
+      "corrected": "למטה, אין context",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:16,710 --> 03:29:19,070",
+      "original": "תחזיר את הקונטקסט, עכשיו שימו לב הדבר הזה",
+      "corrected": "תחזיר את ה־context, עכשיו שימו לב הדבר הזה",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:23,410 --> 03:29:25,490",
+      "original": "use app context, מה הקונטקסט הזה",
+      "corrected": "use app context, מה ה־context הזה",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:25,490 --> 03:29:27,210",
+      "original": "מחזיר, הקונטקסט הזה",
+      "corrected": "מחזיר, ה־context הזה",
+      "changes": [
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:39,590 --> 03:29:41,110",
+      "original": "אז הגדרנו את זה בסטייט",
+      "corrected": "אז הגדרנו את זה ב־state",
+      "changes": [
+        {
+          "before": "בסטייט",
+          "after": "ב־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:29:52,910 --> 03:29:53,830",
+      "original": "את מה שהיה בסטייט",
+      "corrected": "את מה שהיה ב־state",
+      "changes": [
+        {
+          "before": "בסטייט",
+          "after": "ב־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:01,050 --> 03:30:02,310",
+      "original": "הוק אם תרצו",
+      "corrected": "hook אם תרצו",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:02,310 --> 03:30:04,490",
+      "original": "למה הוק? כי הוא מתחיל ב-use prefix",
+      "corrected": "למה hook? כי הוא מתחיל ב-use prefix",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:04,490 --> 03:30:06,450",
+      "original": "זה ההגדרה של הוק",
+      "corrected": "זה ההגדרה של hook",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:06,450 --> 03:30:07,610",
+      "original": "בריאקט, אתם יכולים להגדיר",
+      "corrected": "ב־React, אתם יכולים להגדיר",
+      "changes": [
+        {
+          "before": "בריאקט",
+          "after": "ב־React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:07,610 --> 03:30:08,950",
+      "original": "קסטום הוק",
+      "corrected": "קסטום hook",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:08,950 --> 03:30:12,050",
+      "original": "הוק זה, במקרה הזה",
+      "corrected": "hook זה, במקרה הזה",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:12,050 --> 03:30:13,210",
+      "original": "זה קוס קסטום הוק",
+      "corrected": "זה קוס קסטום hook",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:13,210 --> 03:30:15,190",
+      "original": "זה איזשהו קסטום הוק",
+      "corrected": "זה איזשהו קסטום hook",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:15,190 --> 03:30:19,100",
+      "original": "שהקסטום הוק בנוי על בילדינג הוק",
+      "corrected": "שהקסטום hook בנוי על בילדינג hook",
+      "changes": [
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        },
+        {
+          "before": "הוק",
+          "after": "hook",
+          "term": "hook"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:21,140 --> 03:30:23,900",
+      "original": "זה כמו כל הקומפוננטות",
+      "corrected": "זה כמו כל ה־components",
+      "changes": [
+        {
+          "before": "הקומפוננטות",
+          "after": "ה־components",
+          "term": "components"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:23,900 --> 03:30:25,360",
+      "original": "שיש פה, וככה מה זה ריאקט",
+      "corrected": "שיש פה, וככה מה זה React",
+      "changes": [
+        {
+          "before": "ריאקט",
+          "after": "React",
+          "term": "React"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:30:25,360 --> 03:30:27,680",
+      "original": "זה קסטום קומפוננט שבנויים",
+      "corrected": "זה קסטום component שבנויים",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:32:08,180 --> 03:32:11,480",
+      "original": "לא הוא לא שומע לך את הסטייט כאילו בפעם קודמתי היית.",
+      "corrected": "לא הוא לא שומע לך את ה־state כאילו בפעם קודמתי היית.",
+      "changes": [
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:32:11,480 --> 03:32:14,680",
+      "original": "לא הקומפוננטה נהרס את כל הסטייט הכל הלך לאיבוד.",
+      "corrected": "לא ה־component נהרס את כל ה־state הכל הלך לאיבוד.",
+      "changes": [
+        {
+          "before": "הקומפוננטה",
+          "after": "ה־component",
+          "term": "component"
+        },
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:32:14,680 --> 03:32:19,180",
+      "original": "אם אתה רוצה לשים את היוזרים האלה בסטייט גלובלי אותו דבר קונטקסט.",
+      "corrected": "אם אתה רוצה לשים את היוזרים האלה ב־state גלובלי אותו דבר context.",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        },
+        {
+          "before": "בסטייט",
+          "after": "ב־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:33:02,640 --> 03:33:04,120",
+      "original": "משתמשים בקונטקסט הזה",
+      "corrected": "משתמשים ב־context הזה",
+      "changes": [
+        {
+          "before": "בקונטקסט",
+          "after": "ב־context",
+          "term": "context"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:33:23,340 --> 03:33:26,060",
+      "original": "אבל לא חילחלנו את הפרופס האלה",
+      "corrected": "אבל לא חילחלנו את ה־props האלה",
+      "changes": [
+        {
+          "before": "הפרופס",
+          "after": "ה־props",
+          "term": "props"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:34:27,220 --> 03:34:31,760",
+      "original": "אה זה למעלה סבבה זה בקומפוננט",
+      "corrected": "אה זה למעלה סבבה זה ב־component",
+      "changes": [
+        {
+          "before": "בקומפוננט",
+          "after": "ב־component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:47:15,320 --> 03:47:17,160",
+      "original": "זה ללכת לפרוביידר שלי",
+      "corrected": "זה ללכת ל־Provider שלי",
+      "changes": [
+        {
+          "before": "לפרוביידר",
+          "after": "ל־Provider",
+          "term": "Provider"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:53:00,130 --> 03:53:30,960",
+      "original": "סליחה אגב אם תגיד לי לתעשות את זה בפייג' ולחלחל את זה זה גם אופציה חבל סתם אני יכול להשאיר אותה פה אז הנה אז נסביר למה מה ההבדל בין לשים את זה בקארד לבין לשים את זה ביוזר אם אני שם את זה בקארד ומחר אני עושה ריוז לקומפוננט הזאת למקום אחר היא חייבת להכיר את הקונטקסט וזה קצת יכול להיות בעיה ואז זה צריך איזשהו קאפלינג עם הסטייט הגלובלי אז אם אני יודע שאני הולך להשתמש בדבר הזה בעוד מקומות ולא רלוונטי הזה אז אני אשים יאריך לחלחל את זה",
+      "corrected": "סליחה אגב אם תגיד לי לתעשות את זה בפייג' ולחלחל את זה זה גם אופציה חבל סתם אני יכול להשאיר אותה פה אז הנה אז נסביר למה מה ההבדל בין לשים את זה בקארד לבין לשים את זה ביוזר אם אני שם את זה בקארד ומחר אני עושה ריוז ל־component הזאת למקום אחר היא חייבת להכיר את ה־context וזה קצת יכול להיות בעיה ואז זה צריך איזשהו קאפלינג עם ה־state הגלובלי אז אם אני יודע שאני הולך להשתמש בדבר הזה בעוד מקומות ולא רלוונטי הזה אז אני אשים יאריך לחלחל את זה",
+      "changes": [
+        {
+          "before": "לקומפוננט",
+          "after": "ל־component",
+          "term": "component"
+        },
+        {
+          "before": "הקונטקסט",
+          "after": "ה־context",
+          "term": "context"
+        },
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:53:38,800 --> 03:53:40,680",
+      "original": "זה לא פר קומפוננטה באמת",
+      "corrected": "זה לא פר component באמת",
+      "changes": [
+        {
+          "before": "קומפוננטה",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:55:02,710 --> 03:55:05,010",
+      "original": "צ'יפ כזה קומפוננט שהוא אחראי בתוכו",
+      "corrected": "צ'יפ כזה component שהוא אחראי בתוכו",
+      "changes": [
+        {
+          "before": "קומפוננט",
+          "after": "component",
+          "term": "component"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:58:36,830 --> 03:58:38,850",
+      "original": "על קונטקסט סטייט גלובלי",
+      "corrected": "על context state גלובלי",
+      "changes": [
+        {
+          "before": "קונטקסט",
+          "after": "context",
+          "term": "context"
+        },
+        {
+          "before": "סטייט",
+          "after": "state",
+          "term": "state"
+        }
+      ]
+    },
+    {
+      "timestamp": "03:58:38,850 --> 03:58:41,290",
+      "original": "שימוש בקונטקסט עבור הסטייט שלנו",
+      "corrected": "שימוש ב־context עבור ה־state שלנו",
+      "changes": [
+        {
+          "before": "בקונטקסט",
+          "after": "ב־context",
+          "term": "context"
+        },
+        {
+          "before": "הסטייט",
+          "after": "ה־state",
+          "term": "state"
+        }
+      ]
+    }
+  ]
+}

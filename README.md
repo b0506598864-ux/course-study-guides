@@ -4,6 +4,7 @@
 
 ## כניסה מהירה
 
+- [תמלולי השיעורים האחרונים עם מונחים באנגלית](transcripts/RECENT-TRANSCRIPTS.md)
 - [מתחילים כאן: איך קבצי React מתחברים](guides/ARCHITECTURE-01.md)
 - [שיעור 7 באוקטובר: סינון, טפסים ו-useRef](guides/lessons/L-2026-10-07.md)
 - [מצב התמלולים והחומר החדש](guides/SHARING-STATUS.md)
