@@ -6,6 +6,8 @@
 
 ## שיעורים
 
+עדכון חדש: [L-2026-10-14 — Node, Middleware, Headers ו־Router](lessons/L-2026-10-14.md) · [שני חלקי התמלול](../transcripts/L-2026-10-14/README.md).
+
 עדכון חדש: [L-2026-10-11 — Zod, טעינה עצלה, build/preview ו־Node/Express](lessons/L-2026-10-11.md) · [תמלול](../transcripts/L-2026-10-11/README.md).
 
 - [L-2026-06-24 - HTML ו-CSS - תחילת הקורס](lessons/L-2026-06-24.md)
