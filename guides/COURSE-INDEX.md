@@ -33,6 +33,7 @@
 
 ## אינדקסים נוספים
 
+- [L-2026-10-18 — React מול Node: חלק א׳, התחברות והרשמה](lessons/L-2026-10-18.md)
 - [כל הוראות המרצה](TEACHER-RULES-INDEX.md)
 - [כל שיעורי הבית](HOMEWORK-INDEX.md)
 - [השוואה בין שיטת שחר לשיטת גל](TEACHER-COMPARISON.md)

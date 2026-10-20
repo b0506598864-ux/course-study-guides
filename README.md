@@ -4,6 +4,7 @@
 
 ## כניסה מהירה
 
+- [שיעור 18 באוקטובר, חלק א׳: תמלול, React מול Node, התחברות והרשמה](transcripts/L-2026-10-18/README.md)
 - [שיעור 14 באוקטובר: שני תמלולים, Node/Express, Middleware ותרגול](transcripts/L-2026-10-14/README.md)
 - [שיעור 11 באוקטובר: תמלול, Zod, טעינה עצלה ו־Node/Express](transcripts/L-2026-10-11/README.md)
 - [תמלולי השיעורים האחרונים עם מונחים באנגלית](transcripts/RECENT-TRANSCRIPTS.md)
