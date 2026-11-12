@@ -5,6 +5,11 @@
 ## כניסה מהירה
 
 - [שיעור 11 בנובמבר — React ו־Redux, שני חלקי תמלול](transcripts/L-2026-11-11/README.md)
+- [שיעור 8 בנובמבר — React: מבנה הדף והתחברות](transcripts/L-2026-11-08/README.md)
+- [שיעור 4 בנובמבר — חזרה על React](transcripts/L-2026-11-04/README.md)
+- [שיעור 28 באוקטובר — הרשאות ב־Node.js ו־React](transcripts/L-2026-10-28/README.md)
+- [שיעור 25 באוקטובר — Node.js, React ו־JWT](transcripts/L-2026-10-25/README.md)
+- [שיעור 21 באוקטובר — Node.js, React ואימות](transcripts/L-2026-10-21/README.md)
 - [שיעור 18 באוקטובר, שני חלקים: React מול Node, התחברות, הרשמה ו־Token](transcripts/L-2026-10-18/README.md)
 - [שיעור 14 באוקטובר: שני תמלולים, Node/Express, Middleware ותרגול](transcripts/L-2026-10-14/README.md)
 - [שיעור 11 באוקטובר: תמלול, Zod, טעינה עצלה ו־Node/Express](transcripts/L-2026-10-11/README.md)
